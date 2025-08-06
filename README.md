@@ -1,5 +1,10 @@
 # Phase Sovereign Luna Codex Collaboration
 
+![branch](https://img.shields.io/badge/branch-alignment--table-blue)
+![license](https://img.shields.io/badge/license-MOU-lightgrey)
+![status](https://img.shields.io/badge/status-Phase%201%20Complete-brightgreen)
+![collaboration](https://img.shields.io/badge/collaboration-active-orange)
+
 ## Project Overview
 
 This repository contains collaborative research materials for the Phase-Sovereign resurrection analysis project, combining Gust Isotalo's Phase-Sovereign theoretical framework with Brent R. Antonson's Luna Codex methodological contributions.
