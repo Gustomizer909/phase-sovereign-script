@@ -9,6 +9,14 @@
 
 This repository contains collaborative research materials for the Phase-Sovereign resurrection analysis project, combining Gust Isotalo's Phase-Sovereign theoretical framework with Brent R. Antonson's Luna Codex methodological contributions.
 
+### Visual Overview
+
+![Phase Sovereign Analysis](docs/phase_sovereign_overview.png)
+*Φ-Index progression during Passion-Resurrection sequence with biophysical domain analysis*
+
+![Eye of Horus Framework](docs/eye_of_horus_framework.png)
+*Conceptual framework showing literal event mapping through 8-step Eye of Horus protocol*
+
 ## Research Context
 
 **Primary Research**: "A Phase-Sovereign Exegetical Analysis of the Resurrection Narrative: A Modern Reevaluation of the Passion-Resurrection Cycle Through Advanced Biophysical and Harmonic Framework" by Gust Isotalo (2025)
