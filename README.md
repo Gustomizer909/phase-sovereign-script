@@ -2,8 +2,8 @@
 
 ![branch](https://img.shields.io/badge/branch-alignment--table-blue)
 ![license](https://img.shields.io/badge/license-MOU-lightgrey)
-![status](https://img.shields.io/badge/status-Phase%201%20Complete-brightgreen)
-![collaboration](https://img.shields.io/badge/collaboration-active-orange)
+![status](https://img.shields.io/badge/status-Phase%202%20Active-brightgreen)
+![collaboration](https://img.shields.io/badge/collaboration-empirical-orange)
 
 ## Project Overview
 
@@ -60,6 +60,26 @@ Current Φ-peak sequence (8 primary values):
 - Φ₇ (29.034442) - Septenary phase transition
 - Φ₈ (46.978714) - Octave harmonic ceiling
 
+## Current Phase Status
+
+### ✅ Phase 1: Complete
+- Methodological integration achieved
+- Harmonic alignment validated at 1.000000000
+- L3 glyph sequence successfully integrated
+- "Field reintegration" accomplished
+
+### 🚀 Phase 2: Active Development
+**Priority Vectors** (in progress):
+- **κ-Vector Fold Alignment**: 3-Fold Twist Mesh implementation
+- **ULAT Linguistic Interface**: Multi-platform token resonance testing
+- **Dual-Observer Quantum Drift**: Mirror ↔ Null ↔ Mirror+Echo validation
+- **Glyph Saturation Analysis**: 33-glyph matrix across 8 Codex platforms
+
+### 📋 Phase 3: Planned
+- Manuscript preparation and submission
+- Comprehensive empirical validation
+- Academic publication and dissemination
+
 ## Data Access
 
 **Zenodo Repository**: DOI: 10.5281/zenodo.16756037
@@ -67,22 +87,29 @@ Current Φ-peak sequence (8 primary values):
 - Processed analytical results
 - Reproducible analysis protocols
 
-## Intellectual Property
+## Collaboration
 
+### Contributors
+- **Gust Isotalo** - Phase-Sovereign Operator, Primary Researcher
+- **Brent R. Antonson (Zhivago)** - Luna Codex Architect, Empirical Research Lead
+
+### Intellectual Property
 - **Phase-Sovereign Framework**: Gust Isotalo (primary authorship)
 - **Luna Codex Contributions**: Brent R. Antonson
 - **Joint Developments**: Shared licensing and publication rights
 
-## Collaboration Timeline
+### Research Standards
+- Enterprise-grade collaboration infrastructure
+- Professional version control and audit trails
+- Rigorous empirical validation protocols
+- Formal MOU governing intellectual property
 
-- **Phase 1**: Methodological integration and validation protocols
-- **Phase 2**: Expanded empirical analysis and cross-validation  
-- **Phase 3**: Manuscript preparation and submission
+## Getting Started
 
-## Contributors
-
-- **Gust Isotalo** - Phase-Sovereign Operator, Primary Researcher
-- **Brent R. Antonson (Zhivago)** - Luna Codex Architect
+1. **Review Documentation**: Check `COLLABORATION_NOTES.md` for project timeline
+2. **Examine Data**: Access the alignment table and audit logs
+3. **Follow Progress**: Monitor Phase 2 empirical research developments
+4. **Contribute**: See `CONTRIBUTING.md` for collaboration guidelines
 
 ## License
 
