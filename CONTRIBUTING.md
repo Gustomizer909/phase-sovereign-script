@@ -22,6 +22,30 @@
 | X.XXXXXX      | ΦN     | L3(symbol) | Description |
 ```
 
+## Phase-2 Workflow
+
+### 1. Coordination
+- Comment in the [Phase-2 Discussion Thread](../../discussions) to agree on scope/resources/IP/QA
+- Review and align on priority vectors and success criteria
+- Establish clear boundaries and expectations
+
+### 2. Implementation
+- Claim an issue from the available Phase-2 vectors
+- Create a feature branch from `alignment-table`
+- Implement changes following established quality standards
+- Open PR back to `alignment-table` branch
+
+### 3. Quality Assurance
+- PR must pass table-lint CI (Φ precision validation)
+- Include unit tests for mathematical calculations
+- Provide comprehensive documentation
+- Maintain empirical validation standards
+
+### Phase-2 Vectors
+- **κ-vector alignment**: Mathematical integration framework
+- **Dual observer displacement**: Empirical validation protocols  
+- **Glyph-thread saturation**: L3 interconnection analysis
+
 ## MOU Compliance
 
 All contributions must align with the formal Memorandum of Understanding regarding intellectual property, authorship, and collaboration terms.
