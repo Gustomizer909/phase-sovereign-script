@@ -20,6 +20,9 @@ This repository contains collaborative research materials for the **Phase-Sovere
 
 ### 📊 Visual Overview
 
+![Phase-Sovereign Resurrection Framework](docs/phase_sovereign_resurrection_framework.png)
+*Phase-Sovereign Resurrection Framework: Mathematical integration of crucifixion-resurrection dynamics with ancient symbolic systems and φ-harmonic resonance fields*
+
 ![Φ-Index Analysis](docs/phase_sovereign_overview.png)
 *Φ-Index progression during Passion-Resurrection sequence with biophysical domain analysis*
 
