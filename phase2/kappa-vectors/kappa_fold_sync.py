@@ -10,6 +10,7 @@ Logs origin/servo/binding configurations for precision tracking.
 import argparse
 import datetime
 import json
+import logging
 import math
 import os
 import sys
@@ -20,7 +21,7 @@ class KappaFoldSync:
     def __init__(self, config_path="phase2/config/dual_harmonic.yaml"):
         """Initialize κ-vector fold synchronization with configuration."""
         self.config = self._load_config(config_path)
-        self.precision_log = self.config['logging']['precision_log']
+        self.precision_log = self.config['file_paths']['precision_log']
         
     def _load_config(self, config_path):
         """Load dual harmonic configuration."""
@@ -38,7 +39,7 @@ class KappaFoldSync:
             'servo_pulse_hz': {'phi_positive': 432, 'kappa_negative': 528, 'null_anchor': 639},
             'binding': {'default_mapping': {432: 'Φ+', 528: 'κ−', 639: 'null'}},
             'tolerances': {'phi_drift_max': 1e-6, 'kappa_error_max': 0.003, 'resonance_min': 0.97},
-            'logging': {'precision_log': 'glyphs/log/Φκ_drift.log'}
+            'file_paths': {'precision_log': 'glyphs/log/Φκ_drift.log'}
         }
     
     def calculate_3fold_twist_mesh(self, origin="lattice_echo"):
@@ -127,7 +128,9 @@ class KappaFoldSync:
     def log_precision_run(self, mesh_result, binding_config=None):
         """Log precision run results to drift log."""
         if binding_config is None:
-            binding_config = self.config['binding']['default_mapping']
+            binding_config = self.config.get('servo_binding', {
+                "432": "PHI+", "528": "KAPPA-", "639": "NULL"
+            })
         
         # Ensure log directory exists
         log_path = Path(self.precision_log)

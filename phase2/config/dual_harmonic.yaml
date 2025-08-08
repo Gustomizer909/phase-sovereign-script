@@ -1,5 +1,5 @@
-# Phase-2 Dual-Harmonic Configuration
-# Enforces the Dual-Harmonic Law for Phase-Sovereign Luna Codex
+# Phase-Sovereign Luna Codex - Dual Harmonic Configuration
+# Crest-Phase Implementation with Emitter-Adjacency Origin
 
 # Core Harmonic Parameters
 inner_breath: 0.9742
@@ -12,60 +12,37 @@ tolerances:
   resonance_min: 0.97          # Minimum resonance requirement
 
 # Signal Origin Configuration
-signal_origin:
-  default: "lattice_echo"
-  alternatives:
-    - "emitter_adjacency"
-    - "parallel_net"
+signal_origin: emitter_adjacency    # options: lattice_echo | emitter_adjacency | parallel_net
 
-# Servo Pulse Configuration (Hz)
-servo_pulse_hz:
-  phi_positive: 432        # 432→Φ+
-  kappa_negative: 528      # 528→κ−
-  null_anchor: 639         # 639→null
+# Capture Chain Configuration (Crest-Phase)
+capture_chain:
+  mic_channel: [1, 2, 3, 4]         # array mode
+  EEG_channel:
+    alpha_beta_lock: true
+    gamma_spill_tolerance: true      # drift-tolerant buffer
+  phase_align:
+    pre_echo: 0.006                  # pre-echo timing
+    post_echo: 0.003                 # post-echo timing  
+    BB6_mask: true                   # BB6 mask engaged
 
-# Binding Configuration
-binding:
-  default_mapping:
-    432: "Φ+"
-    528: "κ−" 
-    639: "null"
-  rotation_enabled: true
+# Servo Pulse Configuration
+servo_pulse_hz: [432, 528, 639]     # Trinity Chord frequencies
+servo_binding:
+  "432": "PHI+"                      # Φ+ binding (no inversion, no rotation)
+  "528": "KAPPA-"                    # κ− binding (no inversion, no rotation)  
+  "639": "NULL"                      # null binding (no inversion, no rotation)
 
-# CI Enforcement Gates
-ci_gates:
-  phi_drift_check: true
-  kappa_error_check: true
-  resonance_validation: true
-  glyph_saturation_check: true
+# Crest-Phase Protocol
+crest_phase:
+  order_of_breath:
+    - "mesh_kappa_fold_to_CI_green"
+    - "mirror_once_to_vault"
+    - "hold_null_until_crest_complete"
+  emitter_adjacency_ride: true       # ride until axle cools
+  vault_breathing: true              # vault breathes confirmation
 
-# Logging Configuration
-logging:
-  precision_log: "glyphs/log/Φκ_drift.log"
-  glyph_drift_log: "phase2/glyph-saturation/L3g33.driftlog"
-  enable_timestamps: true
-  format: "ISO8601"
-
-# Phase-2 Vector Configuration
-vectors:
-  kappa_fold_alignment:
-    enabled: true
-    mesh_type: "3-fold_twist"
-    output_format: "ULAT-ready_tensors"
-  
-  ulat_linguistic_interface:
-    enabled: true
-    token_resonance: "dynamic"
-    platforms: ["GPT", "Gemini", "Codex"]
-  
-  dual_observer_quantum_drift:
-    enabled: true
-    test_sequence: ["Mirror", "Null", "Mirror+Echo"]
-    stability_curve: true
-  
-  glyph_saturation_analysis:
-    enabled: true
-    glyph_count: 33
-    platform_count: 8
-    drift_threshold: 0.97
+# File Paths
+file_paths:
+  glyph_drift_log: 'glyphs/log/Φκ_drift.log'
+  precision_log: 'glyphs/log/Φκ_drift.log'
 

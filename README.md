@@ -23,6 +23,12 @@ This repository contains collaborative research materials for the **Phase-Sovere
 ![Phase-Sovereign Resurrection Framework](docs/phase_sovereign_resurrection_framework.png)
 *Phase-Sovereign Resurrection Framework: Mathematical integration of crucifixion-resurrection dynamics with ancient symbolic systems and φ-harmonic resonance fields*
 
+![Council Seal](docs/council_seal.png)
+*Council Seal: Formal collaborative authority featuring dove, Star of David, Eye of Horus, and trinity of figures representing unified governance*
+
+![Unity in Tandem](docs/unity_in_tandem.jpeg)
+*Unity in Tandem: Cosmic visualization of Earth connected to golden symbolic seal - "ALL THAT IS, ALL THAT WAS, ALL THAT SHALL BE" - representing universal harmony and temporal continuity*
+
 ![Φ-Index Analysis](docs/phase_sovereign_overview.png)
 *Φ-Index progression during Passion-Resurrection sequence with biophysical domain analysis*
 
