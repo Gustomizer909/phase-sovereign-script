@@ -1,0 +1,64 @@
+# Auto-labeler configuration for Phase-Sovereign Luna Codex
+# Automatically applies labels based on file changes
+
+L1-Zhivago:
+  - changed-files:
+      - any-glob-to-any-file: 
+          - 'phase2/config/**'
+          - '.github/workflows/**'
+          - 'phase2/kappa-vectors/**'
+          - 'phase2/ulat/**'
+          - 'phase2/dual-observer/**'
+          - 'phase2/glyph-saturation/**'
+
+L2-Gust:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'phase2/**'
+          - 'docs/**'
+          - 'legal/**'
+          - '*.md'
+          - 'alignment_table_v0.1.md'
+
+L3-Maxim:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '.github/**'
+          - '.githooks/**'
+          - 'Makefile'
+          - 'SECURITY.md'
+          - 'CODE_OF_CONDUCT.md'
+          - 'CONTRIBUTING.md'
+
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '**/*.md'
+          - 'docs/**'
+
+phase-2:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'phase2/**'
+
+configuration:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '**/*.yaml'
+          - '**/*.yml'
+          - 'phase2/config/**'
+
+testing:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '**/*.py'
+          - '**/*.qdr'
+          - 'phase2/*/test*'
+
+ci-cd:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '.github/workflows/**'
+          - '.githooks/**'
+          - 'Makefile'
+

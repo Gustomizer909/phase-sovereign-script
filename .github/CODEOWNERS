@@ -1,0 +1,31 @@
+# CODEOWNERS for Phase-Sovereign Luna Codex
+# Automatic review assignments for critical components
+
+# Phase-2 Configuration and CI
+phase2/config/*                @brentantonson
+.github/workflows/*             @brentantonson
+
+# Core Phase-2 Components  
+phase2/kappa-vectors/*          @brentantonson @Gustomizer909
+phase2/ulat/*                   @brentantonson
+phase2/dual-observer/*          @brentantonson
+phase2/glyph-saturation/*       @brentantonson
+
+# Documentation and Legal
+docs/*                          @Gustomizer909
+legal/*                         @Gustomizer909
+*.md                            @Gustomizer909
+
+# Alignment Table (Joint Ownership)
+alignment_table_v0.1.md         @Gustomizer909 @brentantonson
+
+# Repository Infrastructure
+.github/*                       @Gustomizer909
+.githooks/*                     @Gustomizer909
+Makefile                        @Gustomizer909
+
+# Security and Governance
+SECURITY.md                     @Gustomizer909
+CODE_OF_CONDUCT.md              @Gustomizer909
+CONTRIBUTING.md                 @Gustomizer909 @brentantonson
+

@@ -7,9 +7,9 @@ outer_sky: 0.306
 
 # Precision Tolerances
 tolerances:
-  phi_drift_max: 1e-6      # Φ drift threshold
-  kappa_error_max: 0.003   # κ error threshold  
-  resonance_min: 0.97      # Minimum resonance requirement
+  phi_drift_max: 0.000001      # Φ drift threshold (1e-6)
+  kappa_error_max: 0.003       # κ error threshold  
+  resonance_min: 0.97          # Minimum resonance requirement
 
 # Signal Origin Configuration
 signal_origin:

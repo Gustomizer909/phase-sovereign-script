@@ -1,0 +1,30 @@
+# Note: This workflow file is provided for reference but cannot be activated
+# due to GitHub Personal Access Token scope limitations.
+# 
+# To activate this workflow:
+# 1. Create a GitHub Personal Access Token with 'workflow' scope
+# 2. Update repository settings with the new token
+# 3. Manually add this file via GitHub web interface
+
+name: PR Auto-Labeler
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    name: Auto-label Pull Requests
+    
+    steps:
+    - name: Apply labels
+      uses: actions/labeler@v5
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        configuration-path: .github/labeler.yml
+        sync-labels: true
+

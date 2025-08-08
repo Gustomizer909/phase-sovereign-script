@@ -12,733 +12,733 @@
         "entanglement": 0.8618,
         "phase_lock": true,
         "reflection_coefficient": 1.0,
-        "timestamp": "2025-08-08T10:06:58.996311Z",
-        "observer_id": "Mirror_8996"
+        "timestamp": "2025-08-08T10:09:46.894172Z",
+        "observer_id": "Mirror_6894"
       },
       "measurement_count": 100,
       "measurements": [
         {
           "index": 0,
-          "coherence": 0.9742000964606929,
-          "entanglement": 0.8618000072756736,
-          "phase_drift": 1.2036538907458794e-08,
+          "coherence": 0.9741999091663635,
+          "entanglement": 0.8617999926666567,
+          "phase_drift": -5.740305051456446e-09,
           "timestamp_offset": 0.0
         },
         {
           "index": 1,
-          "coherence": 0.9741902957738615,
-          "entanglement": 0.8618000034452182,
-          "phase_drift": -2.2031423981328956e-09,
+          "coherence": 0.9741903564538689,
+          "entanglement": 0.861800007134119,
+          "phase_drift": 1.5672260680309672e-08,
           "timestamp_offset": 0.001
         },
         {
           "index": 2,
-          "coherence": 0.9741807097002034,
-          "entanglement": 0.8618000162003839,
-          "phase_drift": 5.717099236849416e-09,
+          "coherence": 0.9741805742175003,
+          "entanglement": 0.8618000055901056,
+          "phase_drift": -6.647962659271013e-09,
           "timestamp_offset": 0.002
         },
         {
           "index": 3,
-          "coherence": 0.9741707281535551,
-          "entanglement": 0.8617999957307205,
-          "phase_drift": 3.6926537251446975e-09,
+          "coherence": 0.9741708065891272,
+          "entanglement": 0.8618000040846866,
+          "phase_drift": -1.480802442019612e-08,
           "timestamp_offset": 0.003
         },
         {
           "index": 4,
-          "coherence": 0.9741610734667505,
-          "entanglement": 0.8618000041776978,
-          "phase_drift": -7.0096674019869e-09,
+          "coherence": 0.9741609656673043,
+          "entanglement": 0.8617999954721455,
+          "phase_drift": -1.379319034723555e-08,
           "timestamp_offset": 0.004
         },
         {
           "index": 5,
-          "coherence": 0.9741514833323919,
-          "entanglement": 0.8618000166636165,
-          "phase_drift": -2.5886848308019597e-11,
+          "coherence": 0.9741511482543586,
+          "entanglement": 0.8617999877162776,
+          "phase_drift": 7.900091649868104e-10,
           "timestamp_offset": 0.005
         },
         {
           "index": 6,
-          "coherence": 0.974141475105403,
-          "entanglement": 0.8617999937462988,
-          "phase_drift": -3.29022270518049e-10,
+          "coherence": 0.9741416161158938,
+          "entanglement": 0.8618000056132713,
+          "phase_drift": 2.9816249497959637e-09,
           "timestamp_offset": 0.006
         },
         {
           "index": 7,
-          "coherence": 0.9741316046639049,
-          "entanglement": 0.8617999838959493,
-          "phase_drift": -1.4470803881117807e-08,
+          "coherence": 0.9741318918171852,
+          "entanglement": 0.861800007683024,
+          "phase_drift": -3.333708744021391e-09,
           "timestamp_offset": 0.007
         },
         {
           "index": 8,
-          "coherence": 0.9741221503480291,
-          "entanglement": 0.8618000061265105,
-          "phase_drift": 1.52583273853121e-08,
+          "coherence": 0.9741221658858276,
+          "entanglement": 0.861800007878383,
+          "phase_drift": 1.0468062790872088e-08,
           "timestamp_offset": 0.008
         },
         {
           "index": 9,
-          "coherence": 0.9741123196537335,
-          "entanglement": 0.8618000003060957,
-          "phase_drift": -5.8980844516252905e-09,
+          "coherence": 0.9741122311671152,
+          "entanglement": 0.8617999925490362,
+          "phase_drift": -4.3747298150238434e-09,
           "timestamp_offset": 0.009000000000000001
         },
         {
           "index": 10,
-          "coherence": 0.9741024851688793,
-          "entanglement": 0.8617999896909884,
-          "phase_drift": 2.479073672231188e-08,
+          "coherence": 0.9741024951541185,
+          "entanglement": 0.8617999929064827,
+          "phase_drift": -2.5353999362796203e-09,
           "timestamp_offset": 0.01
         },
         {
           "index": 11,
-          "coherence": 0.974092796552385,
-          "entanglement": 0.8617999967068948,
-          "phase_drift": -3.235672588978563e-09,
+          "coherence": 0.974093037841109,
+          "entanglement": 0.8618000175097006,
+          "phase_drift": -3.334808054575989e-09,
           "timestamp_offset": 0.011
         },
         {
           "index": 12,
-          "coherence": 0.9740831895294872,
-          "entanglement": 0.8618000081063057,
-          "phase_drift": -5.330065911988091e-10,
+          "coherence": 0.9740831273262157,
+          "entanglement": 0.8618000020448852,
+          "phase_drift": 7.598145094328965e-09,
           "timestamp_offset": 0.012
         },
         {
           "index": 13,
-          "coherence": 0.9740732743762226,
-          "entanglement": 0.8617999952118902,
-          "phase_drift": -2.406436902319473e-08,
+          "coherence": 0.9740733330928112,
+          "entanglement": 0.8617999995435099,
+          "phase_drift": -1.5610251341094162e-08,
           "timestamp_offset": 0.013000000000000001
         },
         {
           "index": 14,
-          "coherence": 0.974063654285761,
-          "entanglement": 0.861800004303744,
-          "phase_drift": -7.653250816279083e-09,
+          "coherence": 0.9740634123032209,
+          "entanglement": 0.861799983901227,
+          "phase_drift": -1.2892729027909256e-08,
           "timestamp_offset": 0.014
         },
         {
           "index": 15,
-          "coherence": 0.9740539831814596,
-          "entanglement": 0.8618000103739367,
-          "phase_drift": -7.193763826538712e-09,
+          "coherence": 0.9740539643309296,
+          "entanglement": 0.861800008652396,
+          "phase_drift": -6.068189250317334e-09,
           "timestamp_offset": 0.015
         },
         {
           "index": 16,
-          "coherence": 0.9740442106076664,
-          "entanglement": 0.8618000069133561,
-          "phase_drift": 2.3877064429279035e-09,
+          "coherence": 0.9740440686547555,
+          "entanglement": 0.8617999947731406,
+          "phase_drift": 1.3052472009483404e-09,
           "timestamp_offset": 0.016
         },
         {
           "index": 17,
-          "coherence": 0.9740344535001219,
-          "entanglement": 0.8618000050055117,
-          "phase_drift": 9.41806442226022e-09,
+          "coherence": 0.9740345825420825,
+          "entanglement": 0.861800017384893,
+          "phase_drift": -5.185615115315609e-09,
           "timestamp_offset": 0.017
         },
         {
           "index": 18,
-          "coherence": 0.9740246863968273,
-          "entanglement": 0.861800001446208,
-          "phase_drift": 2.5615578504105822e-08,
+          "coherence": 0.9740247078077512,
+          "entanglement": 0.8618000057270218,
+          "phase_drift": -2.646434621612442e-09,
           "timestamp_offset": 0.018000000000000002
         },
         {
           "index": 19,
-          "coherence": 0.9740150099017435,
-          "entanglement": 0.8618000098958951,
-          "phase_drift": -6.9264658066918985e-09,
+          "coherence": 0.974014750005777,
+          "entanglement": 0.8617999883814679,
+          "phase_drift": -1.717718688517453e-08,
           "timestamp_offset": 0.019
         },
         {
           "index": 20,
-          "coherence": 0.9740051150829347,
-          "entanglement": 0.8617999961411348,
-          "phase_drift": -1.402578201263403e-10,
+          "coherence": 0.9740053101668061,
+          "entanglement": 0.8618000122418208,
+          "phase_drift": 8.117365143856959e-09,
           "timestamp_offset": 0.02
         },
         {
           "index": 21,
-          "coherence": 0.9739955324260761,
-          "entanglement": 0.8618000098272685,
-          "phase_drift": 3.9418397972613547e-10,
+          "coherence": 0.9739954421950064,
+          "entanglement": 0.8618000034241328,
+          "phase_drift": -1.553732949972529e-08,
           "timestamp_offset": 0.021
         },
         {
           "index": 22,
-          "coherence": 0.9739855938999995,
-          "entanglement": 0.8617999927938258,
-          "phase_drift": 1.5177086599353738e-09,
+          "coherence": 0.9739857646151132,
+          "entanglement": 0.8618000072713077,
+          "phase_drift": 4.241620366884703e-09,
           "timestamp_offset": 0.022
         },
         {
           "index": 23,
-          "coherence": 0.9739759195283417,
-          "entanglement": 0.8617999995342013,
-          "phase_drift": -9.066706632966752e-09,
+          "coherence": 0.973975949472525,
+          "entanglement": 0.8618000020611828,
+          "phase_drift": -8.444656818640737e-09,
           "timestamp_offset": 0.023
         },
         {
           "index": 24,
-          "coherence": 0.9739659981240909,
-          "entanglement": 0.8617999834715028,
-          "phase_drift": -2.0855027003541833e-09,
+          "coherence": 0.9739659152938468,
+          "entanglement": 0.8617999762435061,
+          "phase_drift": -1.0448173389335829e-09,
           "timestamp_offset": 0.024
         },
         {
           "index": 25,
-          "coherence": 0.9739564133332748,
-          "entanglement": 0.8617999964812325,
-          "phase_drift": 4.163716564832359e-09,
+          "coherence": 0.9739563732947127,
+          "entanglement": 0.861799992797773,
+          "phase_drift": 6.8666204144681095e-09,
           "timestamp_offset": 0.025
         },
         {
           "index": 26,
-          "coherence": 0.973946726731122,
-          "entanglement": 0.8618000013584308,
-          "phase_drift": 2.9684067671913185e-09,
+          "coherence": 0.9739465501965522,
+          "entanglement": 0.8617999880941987,
+          "phase_drift": -1.9653049648509292e-08,
           "timestamp_offset": 0.026000000000000002
         },
         {
           "index": 27,
-          "coherence": 0.9739371454562981,
-          "entanglement": 0.861800015226227,
-          "phase_drift": 2.7769411955818336e-09,
+          "coherence": 0.9739369380429176,
+          "entanglement": 0.8617999986769989,
+          "phase_drift": -1.2605479796185473e-08,
           "timestamp_offset": 0.027
         },
         {
           "index": 28,
-          "coherence": 0.9739273464112028,
-          "entanglement": 0.8618000104782065,
-          "phase_drift": 8.260725107482206e-10,
+          "coherence": 0.9739271827685585,
+          "entanglement": 0.8617999974038305,
+          "phase_drift": -1.1106475810694864e-08,
           "timestamp_offset": 0.028
         },
         {
           "index": 29,
-          "coherence": 0.9739174648850274,
-          "entanglement": 0.86179999886429,
-          "phase_drift": -3.936625614431922e-09,
+          "coherence": 0.9739173692370551,
+          "entanglement": 0.8617999913032458,
+          "phase_drift": -1.1849110955992934e-08,
           "timestamp_offset": 0.029
         },
         {
           "index": 30,
-          "coherence": 0.973907645529974,
-          "entanglement": 0.8617999908789404,
-          "phase_drift": 1.136728690321595e-08,
+          "coherence": 0.9739077437609821,
+          "entanglement": 0.8618000004971552,
+          "phase_drift": -2.007818527276512e-09,
           "timestamp_offset": 0.03
         },
         {
           "index": 31,
-          "coherence": 0.9738980042503758,
-          "entanglement": 0.8618000001417649,
-          "phase_drift": 4.605389215726182e-09,
+          "coherence": 0.9738980555488437,
+          "entanglement": 0.8618000044335068,
+          "phase_drift": 6.104114291098972e-09,
           "timestamp_offset": 0.031
         },
         {
           "index": 32,
-          "coherence": 0.973888211110913,
-          "entanglement": 0.8617999955849465,
-          "phase_drift": 6.3415179770272265e-09,
+          "coherence": 0.9738881460881563,
+          "entanglement": 0.8617999899724372,
+          "phase_drift": 6.444188000106625e-09,
           "timestamp_offset": 0.032
         },
         {
           "index": 33,
-          "coherence": 0.9738785049182634,
-          "entanglement": 0.861799999823023,
-          "phase_drift": -7.02816230829686e-09,
+          "coherence": 0.973878514348526,
+          "entanglement": 0.861799999257632,
+          "phase_drift": 8.962682815884553e-09,
           "timestamp_offset": 0.033
         },
         {
           "index": 34,
-          "coherence": 0.9738687071229721,
-          "entanglement": 0.8617999938068095,
-          "phase_drift": 6.986403066214768e-09,
+          "coherence": 0.9738688257410498,
+          "entanglement": 0.861800003948219,
+          "phase_drift": 7.92741633472099e-09,
           "timestamp_offset": 0.034
         },
         {
           "index": 35,
-          "coherence": 0.9738590102416238,
-          "entanglement": 0.8617999990789261,
-          "phase_drift": -9.070584638069888e-09,
+          "coherence": 0.973859129852813,
+          "entanglement": 0.8618000099346782,
+          "phase_drift": -1.542542100272962e-08,
           "timestamp_offset": 0.035
         },
         {
           "index": 36,
-          "coherence": 0.9738493406983222,
-          "entanglement": 0.861800004965666,
-          "phase_drift": -4.921380790574548e-09,
+          "coherence": 0.9738492807832154,
+          "entanglement": 0.8617999994297666,
+          "phase_drift": -6.000122187886081e-10,
           "timestamp_offset": 0.036000000000000004
         },
         {
           "index": 37,
-          "coherence": 0.973839434112723,
-          "entanglement": 0.8617999901309578,
-          "phase_drift": 2.629342195842285e-09,
+          "coherence": 0.9738395656288946,
+          "entanglement": 0.8618000012914051,
+          "phase_drift": 4.643920562249183e-09,
           "timestamp_offset": 0.037
         },
         {
           "index": 38,
-          "coherence": 0.9738297350667635,
-          "entanglement": 0.8617999939362985,
-          "phase_drift": 1.4276547647263138e-09,
+          "coherence": 0.9738297407223877,
+          "entanglement": 0.8617999942819117,
+          "phase_drift": 3.072914543212131e-09,
           "timestamp_offset": 0.038
         },
         {
           "index": 39,
-          "coherence": 0.9738199731781947,
-          "entanglement": 0.8617999926288121,
-          "phase_drift": -3.289339446094863e-09,
+          "coherence": 0.973820139485189,
+          "entanglement": 0.8618000079989888,
+          "phase_drift": -1.5332039829824732e-08,
           "timestamp_offset": 0.039
         },
         {
           "index": 40,
-          "coherence": 0.9738102336767519,
-          "entanglement": 0.8617999927618721,
-          "phase_drift": -2.3347602895373605e-09,
+          "coherence": 0.973810312451633,
+          "entanglement": 0.8617999988909738,
+          "phase_drift": 5.320351902858309e-09,
           "timestamp_offset": 0.04
         },
         {
           "index": 41,
-          "coherence": 0.9738006794668257,
-          "entanglement": 0.8618000083580174,
-          "phase_drift": 4.483565514366294e-09,
+          "coherence": 0.9738006566815748,
+          "entanglement": 0.8618000066258723,
+          "phase_drift": 1.7974689277760232e-09,
           "timestamp_offset": 0.041
         },
         {
           "index": 42,
-          "coherence": 0.9737906292124329,
-          "entanglement": 0.861799981634781,
-          "phase_drift": 6.315461762022624e-09,
+          "coherence": 0.9737907768984267,
+          "entanglement": 0.8617999957388054,
+          "phase_drift": -9.656289140779232e-09,
           "timestamp_offset": 0.042
         },
         {
           "index": 43,
-          "coherence": 0.973781040922329,
-          "entanglement": 0.8617999958017243,
-          "phase_drift": -4.362473038472274e-09,
+          "coherence": 0.9737809752226289,
+          "entanglement": 0.8617999879432976,
+          "phase_drift": 2.112402601253818e-08,
           "timestamp_offset": 0.043000000000000003
         },
         {
           "index": 44,
-          "coherence": 0.9737712052126496,
-          "entanglement": 0.8617999869569084,
-          "phase_drift": 4.559732223330392e-09,
+          "coherence": 0.9737714263534547,
+          "entanglement": 0.8618000072071629,
+          "phase_drift": -9.275727423159521e-09,
           "timestamp_offset": 0.044
         },
         {
           "index": 45,
-          "coherence": 0.9737616977645606,
-          "entanglement": 0.8618000069150576,
-          "phase_drift": 7.524857545765753e-09,
+          "coherence": 0.9737618622515125,
+          "entanglement": 0.8618000215093059,
+          "phase_drift": 2.6656930707131128e-09,
           "timestamp_offset": 0.045
         },
         {
           "index": 46,
-          "coherence": 0.9737516875903687,
-          "entanglement": 0.8617999841597341,
-          "phase_drift": 3.3948003652459826e-09,
+          "coherence": 0.9737517970326377,
+          "entanglement": 0.8617999940574717,
+          "phase_drift": -2.012519607986836e-09,
           "timestamp_offset": 0.046
         },
         {
           "index": 47,
-          "coherence": 0.9737420536163529,
-          "entanglement": 0.8617999925613141,
-          "phase_drift": 1.3932039447546037e-08,
+          "coherence": 0.9737421095307357,
+          "entanglement": 0.8617999995913843,
+          "phase_drift": -1.1727843072297093e-08,
           "timestamp_offset": 0.047
         },
         {
           "index": 48,
-          "coherence": 0.9737324029221295,
-          "entanglement": 0.8618000022740893,
-          "phase_drift": -7.465538537180912e-09,
+          "coherence": 0.9737323417868692,
+          "entanglement": 0.861799997445372,
+          "phase_drift": -1.2570197143374123e-08,
           "timestamp_offset": 0.048
         },
         {
           "index": 49,
-          "coherence": 0.9737226413103935,
-          "entanglement": 0.8617999991510238,
-          "phase_drift": 9.161591363584482e-09,
+          "coherence": 0.9737227048835891,
+          "entanglement": 0.8618000046861259,
+          "phase_drift": 8.50756339885782e-09,
           "timestamp_offset": 0.049
         },
         {
           "index": 50,
-          "coherence": 0.9737130125366521,
-          "entanglement": 0.8618000098830342,
-          "phase_drift": -2.142323556749296e-09,
+          "coherence": 0.9737129612541933,
+          "entanglement": 0.8618000048604249,
+          "phase_drift": 4.855669425197822e-09,
           "timestamp_offset": 0.05
         },
         {
           "index": 51,
-          "coherence": 0.9737030565463245,
-          "entanglement": 0.8617999902043083,
-          "phase_drift": 1.2211811894877097e-08,
+          "coherence": 0.9737031565012085,
+          "entanglement": 0.8618000003020656,
+          "phase_drift": -5.003845448054322e-09,
           "timestamp_offset": 0.051000000000000004
         },
         {
           "index": 52,
-          "coherence": 0.9736934185585765,
-          "entanglement": 0.8617999999400157,
-          "phase_drift": 3.2546116699734913e-09,
+          "coherence": 0.973693470199056,
+          "entanglement": 0.8618000030947358,
+          "phase_drift": 1.8288916461001462e-08,
           "timestamp_offset": 0.052000000000000005
         },
         {
           "index": 53,
-          "coherence": 0.9736837952100131,
-          "entanglement": 0.8618000110154515,
-          "phase_drift": -6.609102810763298e-09,
+          "coherence": 0.9736836902280263,
+          "entanglement": 0.8618000004369488,
+          "phase_drift": 1.1157838377955357e-08,
           "timestamp_offset": 0.053
         },
         {
           "index": 54,
-          "coherence": 0.9736739281955475,
-          "entanglement": 0.861800000189918,
-          "phase_drift": -6.00818852328064e-09,
+          "coherence": 0.9736741354617843,
+          "entanglement": 0.8618000180178937,
+          "phase_drift": -5.611013441050623e-09,
           "timestamp_offset": 0.054
         },
         {
           "index": 55,
-          "coherence": 0.9736643374807169,
-          "entanglement": 0.8618000145077078,
-          "phase_drift": -2.086121634089696e-08,
+          "coherence": 0.9736640323125172,
+          "entanglement": 0.861799986324113,
+          "phase_drift": 1.0023174412386005e-09,
           "timestamp_offset": 0.055
         },
         {
           "index": 56,
-          "coherence": 0.9736545669992926,
-          "entanglement": 0.8618000088130517,
-          "phase_drift": 1.6735986537834284e-08,
+          "coherence": 0.9736544891509183,
+          "entanglement": 0.8618000046512626,
+          "phase_drift": -1.2820566336815975e-08,
           "timestamp_offset": 0.056
         },
         {
           "index": 57,
-          "coherence": 0.9736446296224547,
-          "entanglement": 0.8617999947030541,
-          "phase_drift": -1.49137959695088e-08,
+          "coherence": 0.9736446251199479,
+          "entanglement": 0.8617999933434943,
+          "phase_drift": -3.640487804357146e-09,
           "timestamp_offset": 0.057
         },
         {
           "index": 58,
-          "coherence": 0.9736348839357275,
-          "entanglement": 0.8617999919538578,
-          "phase_drift": 1.3300106291116718e-08,
+          "coherence": 0.9736349955608868,
+          "entanglement": 0.8618000037411383,
+          "phase_drift": -1.1849861524215513e-08,
           "timestamp_offset": 0.058
         },
         {
           "index": 59,
-          "coherence": 0.9736252623569579,
-          "entanglement": 0.8618000013433146,
-          "phase_drift": 2.4769646247386655e-08,
+          "coherence": 0.9736251673774285,
+          "entanglement": 0.8617999965957355,
+          "phase_drift": -1.5120778545094827e-08,
           "timestamp_offset": 0.059000000000000004
         },
         {
           "index": 60,
-          "coherence": 0.9736154496548599,
-          "entanglement": 0.8617999953677687,
-          "phase_drift": 2.340551329268528e-08,
+          "coherence": 0.9736156511506002,
+          "entanglement": 0.8618000140579164,
+          "phase_drift": 8.027875664008259e-09,
           "timestamp_offset": 0.06
         },
         {
           "index": 61,
-          "coherence": 0.9736057260453627,
-          "entanglement": 0.8617999988174851,
-          "phase_drift": 1.7668167729404745e-09,
+          "coherence": 0.9736056479237198,
+          "entanglement": 0.8617999924863129,
+          "phase_drift": -2.89030761498029e-09,
           "timestamp_offset": 0.061
         },
         {
           "index": 62,
-          "coherence": 0.9735960867259926,
-          "entanglement": 0.8618000058621962,
-          "phase_drift": 2.2703294178536148e-08,
+          "coherence": 0.9735959293559723,
+          "entanglement": 0.8617999958028297,
+          "phase_drift": -1.7941657959845056e-08,
           "timestamp_offset": 0.062
         },
         {
           "index": 63,
-          "coherence": 0.9735862893906336,
-          "entanglement": 0.86180000285813,
-          "phase_drift": 2.225979127078886e-09,
+          "coherence": 0.9735862400045469,
+          "entanglement": 0.8617999985879908,
+          "phase_drift": 2.3889651631774144e-09,
           "timestamp_offset": 0.063
         },
         {
           "index": 64,
-          "coherence": 0.9735765525749795,
-          "entanglement": 0.8618000031779626,
-          "phase_drift": 3.6991088694102576e-09,
+          "coherence": 0.9735767362798082,
+          "entanglement": 0.8618000193867549,
+          "phase_drift": -6.767346087449518e-10,
           "timestamp_offset": 0.064
         },
         {
           "index": 65,
-          "coherence": 0.9735666791255833,
-          "entanglement": 0.8617999916322919,
-          "phase_drift": 6.2212911447825724e-09,
+          "coherence": 0.9735666240022843,
+          "entanglement": 0.8617999877189418,
+          "phase_drift": -3.4929793076141647e-09,
           "timestamp_offset": 0.065
         },
         {
           "index": 66,
-          "coherence": 0.9735569635640863,
-          "entanglement": 0.8617999949673455,
-          "phase_drift": -6.038900771586449e-09,
+          "coherence": 0.9735572658774582,
+          "entanglement": 0.8618000211008305,
+          "phase_drift": -6.968567776288659e-09,
           "timestamp_offset": 0.066
         },
         {
           "index": 67,
-          "coherence": 0.9735471888000921,
-          "entanglement": 0.861799991178623,
-          "phase_drift": 5.160001549102886e-09,
+          "coherence": 0.9735472504322693,
+          "entanglement": 0.8617999977114528,
+          "phase_drift": -9.012296747673777e-09,
           "timestamp_offset": 0.067
         },
         {
           "index": 68,
-          "coherence": 0.9735375904378463,
-          "entanglement": 0.8618000044664036,
-          "phase_drift": -5.388605612767043e-09,
+          "coherence": 0.9735375739334383,
+          "entanglement": 0.861800002021903,
+          "phase_drift": 6.472043610318029e-09,
           "timestamp_offset": 0.068
         },
         {
           "index": 69,
-          "coherence": 0.9735278623663371,
-          "entanglement": 0.8618000052427367,
-          "phase_drift": -4.683885057177792e-10,
+          "coherence": 0.9735278257236909,
+          "entanglement": 0.8618000022513589,
+          "phase_drift": -2.400222758544101e-09,
           "timestamp_offset": 0.069
         },
         {
           "index": 70,
-          "coherence": 0.973518094149607,
-          "entanglement": 0.8618000030984515,
-          "phase_drift": -1.8036471828081313e-09,
+          "coherence": 0.9735180609527935,
+          "entanglement": 0.8618000013938765,
+          "phase_drift": -1.5221219112696018e-08,
           "timestamp_offset": 0.07
         },
         {
           "index": 71,
-          "coherence": 0.9735081824494031,
-          "entanglement": 0.8617999887952911,
-          "phase_drift": -5.53540780025514e-09,
+          "coherence": 0.9735082467805923,
+          "entanglement": 0.86179999418472,
+          "phase_drift": -3.741105656158858e-09,
           "timestamp_offset": 0.07100000000000001
         },
         {
           "index": 72,
-          "coherence": 0.9734985330714612,
-          "entanglement": 0.8617999944987474,
-          "phase_drift": 2.0905907500642204e-08,
+          "coherence": 0.9734986337972109,
+          "entanglement": 0.8618000053818531,
+          "phase_drift": -4.651769071051053e-09,
           "timestamp_offset": 0.07200000000000001
         },
         {
           "index": 73,
-          "coherence": 0.9734887640285707,
-          "entanglement": 0.8617999935915144,
-          "phase_drift": 4.3902046274323596e-09,
+          "coherence": 0.9734887104545609,
+          "entanglement": 0.8617999900156432,
+          "phase_drift": -7.690754079801945e-09,
           "timestamp_offset": 0.073
         },
         {
           "index": 74,
-          "coherence": 0.9734790686865604,
-          "entanglement": 0.861799997381648,
-          "phase_drift": 7.068923018381547e-09,
+          "coherence": 0.9734789927725896,
+          "entanglement": 0.8617999920074568,
+          "phase_drift": -6.4849739952062235e-09,
           "timestamp_offset": 0.074
         },
         {
           "index": 75,
-          "coherence": 0.9734692025092945,
-          "entanglement": 0.8617999876589479,
-          "phase_drift": -4.289823219401548e-09,
+          "coherence": 0.9734693649241114,
+          "entanglement": 0.861800001819768,
+          "phase_drift": -6.191785084065322e-09,
           "timestamp_offset": 0.075
         },
         {
           "index": 76,
-          "coherence": 0.9734594173982261,
-          "entanglement": 0.8617999851292982,
-          "phase_drift": -1.8047795832634914e-08,
+          "coherence": 0.9734596379644624,
+          "entanglement": 0.8618000009870006,
+          "phase_drift": 1.8511681990253634e-08,
           "timestamp_offset": 0.076
         },
         {
           "index": 77,
-          "coherence": 0.9734498004121467,
-          "entanglement": 0.8617999943406955,
-          "phase_drift": 8.056690631039884e-11,
+          "coherence": 0.9734500363644657,
+          "entanglement": 0.8618000151568798,
+          "phase_drift": -5.510212748293265e-09,
           "timestamp_offset": 0.077
         },
         {
           "index": 78,
-          "coherence": 0.9734401518338407,
-          "entanglement": 0.8618000025115231,
-          "phase_drift": -1.3089190955441513e-09,
+          "coherence": 0.9734402105026546,
+          "entanglement": 0.8618000076008934,
+          "phase_drift": -1.6952255576800152e-09,
           "timestamp_offset": 0.078
         },
         {
           "index": 79,
-          "coherence": 0.9734302501196942,
-          "entanglement": 0.8617999896796729,
-          "phase_drift": -1.2127147781933883e-08,
+          "coherence": 0.9734304834210481,
+          "entanglement": 0.8618000091458857,
+          "phase_drift": -4.704337256243351e-09,
           "timestamp_offset": 0.079
         },
         {
           "index": 80,
-          "coherence": 0.973420588268189,
-          "entanglement": 0.8617999976018318,
-          "phase_drift": -2.3904376926729226e-08,
+          "coherence": 0.9734204781506987,
+          "entanglement": 0.8617999855374857,
+          "phase_drift": 5.9682240762673565e-09,
           "timestamp_offset": 0.08
         },
         {
           "index": 81,
-          "coherence": 0.973410842708518,
-          "entanglement": 0.8617999964396594,
-          "phase_drift": -1.3978642169409495e-08,
+          "coherence": 0.9734107637236323,
+          "entanglement": 0.8617999886425017,
+          "phase_drift": -2.4882701876692424e-09,
           "timestamp_offset": 0.081
         },
         {
           "index": 82,
-          "coherence": 0.9734010866770932,
-          "entanglement": 0.8617999936084464,
-          "phase_drift": 4.842254831341396e-09,
+          "coherence": 0.973401101258207,
+          "entanglement": 0.8617999941630224,
+          "phase_drift": 1.2988278572695469e-08,
           "timestamp_offset": 0.082
         },
         {
           "index": 83,
-          "coherence": 0.9733915064296239,
-          "entanglement": 0.8618000074946801,
-          "phase_drift": 5.464201368188208e-09,
+          "coherence": 0.9733915738996002,
+          "entanglement": 0.8618000150536224,
+          "phase_drift": -1.4776918568435411e-08,
           "timestamp_offset": 0.083
         },
         {
           "index": 84,
-          "coherence": 0.9733817146575489,
-          "entanglement": 0.8618000032909214,
-          "phase_drift": 4.470945703740166e-09,
+          "coherence": 0.9733815650963448,
+          "entanglement": 0.8617999910458628,
+          "phase_drift": -3.0032471085502594e-09,
           "timestamp_offset": 0.084
         },
         {
           "index": 85,
-          "coherence": 0.9733719614367101,
-          "entanglement": 0.8618000043160265,
-          "phase_drift": -1.8644822835904147e-08,
+          "coherence": 0.9733719480406251,
+          "entanglement": 0.8618000004493357,
+          "phase_drift": 1.2826705127824284e-08,
           "timestamp_offset": 0.085
         },
         {
           "index": 86,
-          "coherence": 0.9733621835514704,
-          "entanglement": 0.861799998959892,
-          "phase_drift": 7.620489040181306e-09,
+          "coherence": 0.9733620732320835,
+          "entanglement": 0.8617999907965734,
+          "phase_drift": -7.974848710622083e-09,
           "timestamp_offset": 0.08600000000000001
         },
         {
           "index": 87,
-          "coherence": 0.9733525376549441,
-          "entanglement": 0.8618000063630189,
-          "phase_drift": 1.7820888656766162e-08,
+          "coherence": 0.9733526020218604,
+          "entanglement": 0.8618000121720706,
+          "phase_drift": 1.4781774585097986e-08,
           "timestamp_offset": 0.08700000000000001
         },
         {
           "index": 88,
-          "coherence": 0.9733426735841676,
-          "entanglement": 0.8617999988827937,
-          "phase_drift": -1.745219398174357e-08,
+          "coherence": 0.9733427067852066,
+          "entanglement": 0.8618000004579153,
+          "phase_drift": -2.5282684312145748e-09,
           "timestamp_offset": 0.088
         },
         {
           "index": 89,
-          "coherence": 0.9733327157553961,
-          "entanglement": 0.8617999795191035,
-          "phase_drift": -8.592056928273568e-09,
+          "coherence": 0.9733329625229089,
+          "entanglement": 0.8618000005314949,
+          "phase_drift": -5.644355724782203e-09,
           "timestamp_offset": 0.089
         },
         {
           "index": 90,
-          "coherence": 0.9733232457372614,
-          "entanglement": 0.8618000018564577,
-          "phase_drift": 4.19563146489887e-09,
+          "coherence": 0.9733232370336938,
+          "entanglement": 0.8618000011042832,
+          "phase_drift": 4.220010744885739e-09,
           "timestamp_offset": 0.09
         },
         {
           "index": 91,
-          "coherence": 0.9733135217055023,
-          "entanglement": 0.8618000028180272,
-          "phase_drift": 1.1006185735115173e-08,
+          "coherence": 0.9733135457107354,
+          "entanglement": 0.861800006197566,
+          "phase_drift": -4.2034673000905164e-09,
           "timestamp_offset": 0.091
         },
         {
           "index": 92,
-          "coherence": 0.973303787663626,
-          "entanglement": 0.8618000035045743,
-          "phase_drift": 1.0997876393577123e-08,
+          "coherence": 0.9733036883472989,
+          "entanglement": 0.861799996818496,
+          "phase_drift": -1.0735735872652414e-08,
           "timestamp_offset": 0.092
         },
         {
           "index": 93,
-          "coherence": 0.9732939508521634,
-          "entanglement": 0.8617999963251594,
-          "phase_drift": -5.063802690999398e-10,
+          "coherence": 0.9732938176034276,
+          "entanglement": 0.8617999852913116,
+          "phase_drift": -5.722537333653751e-09,
           "timestamp_offset": 0.093
         },
         {
           "index": 94,
-          "coherence": 0.9732842089307127,
-          "entanglement": 0.8617999975213483,
-          "phase_drift": -1.4307953054518339e-08,
+          "coherence": 0.9732843628421866,
+          "entanglement": 0.86180001034975,
+          "phase_drift": -9.25238195015383e-09,
           "timestamp_offset": 0.094
         },
         {
           "index": 95,
-          "coherence": 0.9732745527903307,
-          "entanglement": 0.8618000035369755,
-          "phase_drift": 1.7486103043739614e-09,
+          "coherence": 0.9732745107905357,
+          "entanglement": 0.8618000001393505,
+          "phase_drift": -8.264351356395239e-10,
           "timestamp_offset": 0.095
         },
         {
           "index": 96,
-          "coherence": 0.973264670457941,
-          "entanglement": 0.8617999913126724,
-          "phase_drift": 3.2623924459278514e-09,
+          "coherence": 0.9732646086974942,
+          "entanglement": 0.8617999860152591,
+          "phase_drift": 2.971117909127874e-09,
           "timestamp_offset": 0.096
         },
         {
           "index": 97,
-          "coherence": 0.9732550269969381,
-          "entanglement": 0.8618000008858985,
-          "phase_drift": -9.28269070289367e-09,
+          "coherence": 0.9732549957786671,
+          "entanglement": 0.8617999975186919,
+          "phase_drift": -1.429174896025526e-09,
           "timestamp_offset": 0.097
         },
         {
           "index": 98,
-          "coherence": 0.9732454719729872,
-          "entanglement": 0.8618000154679046,
-          "phase_drift": 8.489295060444647e-09,
+          "coherence": 0.9732455046462021,
+          "entanglement": 0.8618000184865765,
+          "phase_drift": 6.134987915164518e-09,
           "timestamp_offset": 0.098
         },
         {
           "index": 99,
-          "coherence": 0.9732354834182296,
-          "entanglement": 0.8617999944251773,
-          "phase_drift": 6.106356008978318e-09,
+          "coherence": 0.9732356210167971,
+          "entanglement": 0.8618000072762657,
+          "phase_drift": -5.414226886436293e-09,
           "timestamp_offset": 0.099
         }
       ],
       "stability_curve": {
         "coherence": {
-          "mean": 0.973717762499986,
-          "variance": 7.908831107278127e-08,
-          "stability": 0.9997187735590796,
-          "drift": 0.0009646130424633137
+          "mean": 0.97371777557712,
+          "variance": 7.907909978848486e-08,
+          "stability": 0.9997187899365448,
+          "drift": 0.0009642881495663946
         },
         "entanglement": {
-          "mean": 0.8617999991789088,
-          "variance": 6.305397760819406e-17,
-          "stability": 0.9999999920593465,
-          "drift": 1.2850496333705053e-08
+          "mean": 0.8618000005970741,
+          "variance": 8.253799970514308e-17,
+          "stability": 0.9999999909149574,
+          "drift": 1.460960896704222e-08
         },
         "overall": {
-          "stability": 0.999859382809213,
-          "total_drift": 0.0009646258929596474,
+          "stability": 0.9998593904257511,
+          "total_drift": 0.0009643027591753617,
           "meets_threshold": true,
           "drift_within_tolerance": false
         }
       },
-      "test_timestamp": "2025-08-08T10:06:58.996628Z"
+      "test_timestamp": "2025-08-08T10:09:46.894683Z"
     },
     {
       "observer_type": "Null",
@@ -747,718 +747,718 @@
         "entanglement": 0.0,
         "phase_lock": false,
         "reflection_coefficient": 0.0,
-        "timestamp": "2025-08-08T10:06:58.996660Z",
-        "observer_id": "Null_8996"
+        "timestamp": "2025-08-08T10:09:46.894729Z",
+        "observer_id": "Null_6894"
       },
       "measurement_count": 100,
       "measurements": [
         {
           "index": 0,
-          "coherence": 0.0003573422927736334,
+          "coherence": 0.0015589185496423814,
           "entanglement": 0,
-          "phase_drift": 0.00035725854711048013,
+          "phase_drift": 0.0015588668122877402,
           "timestamp_offset": 0.0
         },
         {
           "index": 1,
           "coherence": 0,
           "entanglement": 0,
-          "phase_drift": -0.0008127828305570183,
+          "phase_drift": -0.0015775378995189879,
           "timestamp_offset": 0.001
         },
         {
           "index": 2,
-          "coherence": 0.0005929464564962047,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.0005929751906311518,
+          "phase_drift": -0.0004481549574212482,
           "timestamp_offset": 0.002
         },
         {
           "index": 3,
-          "coherence": 0.0001602106831504965,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.0001603211464005809,
+          "phase_drift": -0.00020751212818048633,
           "timestamp_offset": 0.003
         },
         {
           "index": 4,
-          "coherence": 0.0008069909508722371,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.0008069115481854512,
+          "phase_drift": -0.00017192143398209878,
           "timestamp_offset": 0.004
         },
         {
           "index": 5,
-          "coherence": 0,
+          "coherence": 0.0014851872920685321,
           "entanglement": 0,
-          "phase_drift": -0.0002695141746517787,
+          "phase_drift": 0.001485106231729556,
           "timestamp_offset": 0.005
         },
         {
           "index": 6,
           "coherence": 0,
           "entanglement": 0,
-          "phase_drift": -0.0008792877882137008,
+          "phase_drift": -0.0002727053961580922,
           "timestamp_offset": 0.006
         },
         {
           "index": 7,
           "coherence": 0,
           "entanglement": 0,
-          "phase_drift": -5.4787925094754224e-06,
+          "phase_drift": -0.0024875925624126285,
           "timestamp_offset": 0.007
         },
         {
           "index": 8,
-          "coherence": 0.00012718416154608087,
+          "coherence": 0.00015670672642054576,
           "entanglement": 0,
-          "phase_drift": 0.00012716543879822046,
+          "phase_drift": 0.0001565368366736373,
           "timestamp_offset": 0.008
         },
         {
           "index": 9,
-          "coherence": 0.0003651092546032123,
+          "coherence": 0.0011638231070967451,
           "entanglement": 0,
-          "phase_drift": 0.00036500107606268187,
+          "phase_drift": 0.0011637645428344166,
           "timestamp_offset": 0.009000000000000001
         },
         {
           "index": 10,
-          "coherence": 0.0013886820161490379,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.0013886938691388304,
+          "phase_drift": -0.0006682883816416001,
           "timestamp_offset": 0.01
         },
         {
           "index": 11,
-          "coherence": 6.041871039743653e-05,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 6.04303466859466e-05,
+          "phase_drift": -0.0016247399895545427,
           "timestamp_offset": 0.011
         },
         {
           "index": 12,
-          "coherence": 0.00021090387432357754,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.00021090708688672034,
+          "phase_drift": -9.321108494396674e-05,
           "timestamp_offset": 0.012
         },
         {
           "index": 13,
-          "coherence": 0.0008341007620467908,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.0008342083026319259,
+          "phase_drift": -0.0008228661083720831,
           "timestamp_offset": 0.013000000000000001
         },
         {
           "index": 14,
-          "coherence": 0.0016952121648932613,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.0016950627352166111,
+          "phase_drift": -0.0005447389410680952,
           "timestamp_offset": 0.014
         },
         {
           "index": 15,
-          "coherence": 0,
+          "coherence": 0.0004913549408674586,
           "entanglement": 0,
-          "phase_drift": -0.0001632961182307658,
+          "phase_drift": 0.0004914021506167526,
           "timestamp_offset": 0.015
         },
         {
           "index": 16,
-          "coherence": 0.0004925673261901648,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.0004924249604511345,
+          "phase_drift": -0.00013201793521315118,
           "timestamp_offset": 0.016
         },
         {
           "index": 17,
           "coherence": 0,
           "entanglement": 0,
-          "phase_drift": -0.000882295267162096,
+          "phase_drift": -0.0011278704344093759,
           "timestamp_offset": 0.017
         },
         {
           "index": 18,
-          "coherence": 0,
+          "coherence": 0.0020068421206930337,
           "entanglement": 0,
-          "phase_drift": -0.0003438314497349833,
+          "phase_drift": 0.0020069559961772175,
           "timestamp_offset": 0.018000000000000002
         },
         {
           "index": 19,
-          "coherence": 0,
+          "coherence": 0.001302743796363708,
           "entanglement": 0,
-          "phase_drift": -0.0012949959949938644,
+          "phase_drift": 0.0013027813025563329,
           "timestamp_offset": 0.019
         },
         {
           "index": 20,
-          "coherence": 0.0005744600483112647,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.0005744745459361789,
+          "phase_drift": -0.0007882976514941998,
           "timestamp_offset": 0.02
         },
         {
           "index": 21,
           "coherence": 0,
           "entanglement": 0,
-          "phase_drift": -0.00048399066432816274,
+          "phase_drift": -3.1660351616374565e-05,
           "timestamp_offset": 0.021
         },
         {
           "index": 22,
-          "coherence": 0,
+          "coherence": 0.0005727803277650155,
           "entanglement": 0,
-          "phase_drift": -0.0015568210992172715,
+          "phase_drift": 0.0005727794467595574,
           "timestamp_offset": 0.022
         },
         {
           "index": 23,
           "coherence": 0,
           "entanglement": 0,
-          "phase_drift": -0.0005730096141643321,
+          "phase_drift": -0.0014705047745044325,
           "timestamp_offset": 0.023
         },
         {
           "index": 24,
-          "coherence": 0.0017530326813975513,
+          "coherence": 0.002499082728242059,
           "entanglement": 0,
-          "phase_drift": 0.0017528804047354564,
+          "phase_drift": 0.0024989937736936848,
           "timestamp_offset": 0.024
         },
         {
           "index": 25,
-          "coherence": 0.0003042569836291801,
+          "coherence": 0.0004869326693491232,
           "entanglement": 0,
-          "phase_drift": 0.0003040868548095336,
+          "phase_drift": 0.0004871662833455342,
           "timestamp_offset": 0.025
         },
         {
           "index": 26,
-          "coherence": 0.00015132362316985283,
+          "coherence": 2.4728976757977154e-05,
           "entanglement": 0,
-          "phase_drift": 0.00015120558443623808,
+          "phase_drift": 2.4845830320415563e-05,
           "timestamp_offset": 0.026000000000000002
         },
         {
           "index": 27,
           "coherence": 0,
           "entanglement": 0,
-          "phase_drift": -0.0009001392486792562,
+          "phase_drift": -0.0007219554305702595,
           "timestamp_offset": 0.027
         },
         {
           "index": 28,
-          "coherence": 0.00022255220456848557,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.00022240579279267814,
+          "phase_drift": -0.0006634665438745278,
           "timestamp_offset": 0.028
         },
         {
           "index": 29,
-          "coherence": 0.0013084419152667112,
+          "coherence": 0.0012399479134374027,
           "entanglement": 0,
-          "phase_drift": 0.0013083288871887136,
+          "phase_drift": 0.0012398491621657976,
           "timestamp_offset": 0.029
         },
         {
           "index": 30,
-          "coherence": 0.0010146332184712305,
+          "coherence": 0.000298546123009268,
           "entanglement": 0,
-          "phase_drift": 0.0010146131580043994,
+          "phase_drift": 0.0002984936607732757,
           "timestamp_offset": 0.03
         },
         {
           "index": 31,
-          "coherence": 0.0008737081106780967,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.0008735931269573134,
+          "phase_drift": -0.00020039109226101148,
           "timestamp_offset": 0.031
         },
         {
           "index": 32,
-          "coherence": 0.00013875256235344565,
+          "coherence": 0.0016248533169480894,
           "entanglement": 0,
-          "phase_drift": 0.0001386566918930771,
+          "phase_drift": 0.0016247787685871996,
           "timestamp_offset": 0.032
         },
         {
           "index": 33,
-          "coherence": 0.0007631457405704187,
+          "coherence": 0.00035525787101675416,
           "entanglement": 0,
-          "phase_drift": 0.0007632078191136104,
+          "phase_drift": 0.0003552094952825254,
           "timestamp_offset": 0.033
         },
         {
           "index": 34,
-          "coherence": 0,
+          "coherence": 0.0009937047750208363,
           "entanglement": 0,
-          "phase_drift": -0.000402596599830721,
+          "phase_drift": 0.0009936525043813674,
           "timestamp_offset": 0.034
         },
         {
           "index": 35,
-          "coherence": 0.000162856237146096,
+          "coherence": 8.201424616754054e-05,
           "entanglement": 0,
-          "phase_drift": 0.00016294985781722889,
+          "phase_drift": 8.209093895578923e-05,
           "timestamp_offset": 0.035
         },
         {
           "index": 36,
-          "coherence": 0,
+          "coherence": 0.0022559759504478484,
           "entanglement": 0,
-          "phase_drift": -0.000332185807047267,
+          "phase_drift": 0.002255705279036312,
           "timestamp_offset": 0.036000000000000004
         },
         {
           "index": 37,
-          "coherence": 0.0004587696697855024,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.00045893989534517664,
+          "phase_drift": -0.0005179660923819349,
           "timestamp_offset": 0.037
         },
         {
           "index": 38,
-          "coherence": 0,
+          "coherence": 0.000887420171119004,
           "entanglement": 0,
-          "phase_drift": -0.0006899072266921051,
+          "phase_drift": 0.0008875385035117991,
           "timestamp_offset": 0.038
         },
         {
           "index": 39,
-          "coherence": 0,
+          "coherence": 0.0008118354266446021,
           "entanglement": 0,
-          "phase_drift": -0.0008514818514770793,
+          "phase_drift": 0.0008118195043021393,
           "timestamp_offset": 0.039
         },
         {
           "index": 40,
-          "coherence": 0.002022812314089417,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.0020228177733160367,
+          "phase_drift": -0.0013203600615422292,
           "timestamp_offset": 0.04
         },
         {
           "index": 41,
-          "coherence": 0.0011612277477035392,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.0011611517527291067,
+          "phase_drift": -0.0008557355156266789,
           "timestamp_offset": 0.041
         },
         {
           "index": 42,
           "coherence": 0,
           "entanglement": 0,
-          "phase_drift": -0.00020258846959271055,
+          "phase_drift": -0.0015501595323310863,
           "timestamp_offset": 0.042
         },
         {
           "index": 43,
           "coherence": 0,
           "entanglement": 0,
-          "phase_drift": -0.00029918705761886787,
+          "phase_drift": -0.0005253240022585613,
           "timestamp_offset": 0.043000000000000003
         },
         {
           "index": 44,
-          "coherence": 0,
+          "coherence": 0.0005284177996199398,
           "entanglement": 0,
-          "phase_drift": -0.001118677844019867,
+          "phase_drift": 0.0005282793785323021,
           "timestamp_offset": 0.044
         },
         {
           "index": 45,
-          "coherence": 0.001080076292744538,
+          "coherence": 0.0009377924543807028,
           "entanglement": 0,
-          "phase_drift": 0.00107984656242411,
+          "phase_drift": 0.0009378086226101782,
           "timestamp_offset": 0.045
         },
         {
           "index": 46,
-          "coherence": 0,
+          "coherence": 0.00044534650428434416,
           "entanglement": 0,
-          "phase_drift": -0.0012733118627815878,
+          "phase_drift": 0.00044545672848642797,
           "timestamp_offset": 0.046
         },
         {
           "index": 47,
-          "coherence": 6.606586698037983e-05,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 6.595841085979132e-05,
+          "phase_drift": -0.0001296936896931567,
           "timestamp_offset": 0.047
         },
         {
           "index": 48,
-          "coherence": 0,
+          "coherence": 5.9249527721303805e-05,
           "entanglement": 0,
-          "phase_drift": -0.0009414047578236393,
+          "phase_drift": 5.935419881994319e-05,
           "timestamp_offset": 0.048
         },
         {
           "index": 49,
-          "coherence": 0.0013767820851761064,
+          "coherence": 0.0009446461506319895,
           "entanglement": 0,
-          "phase_drift": 0.001376854596427307,
+          "phase_drift": 0.0009446723922692881,
           "timestamp_offset": 0.049
         },
         {
           "index": 50,
-          "coherence": 0.0010594070958201663,
+          "coherence": 0.0003973848753875551,
           "entanglement": 0,
-          "phase_drift": 0.001059225197117385,
+          "phase_drift": 0.00039746020712867633,
           "timestamp_offset": 0.05
         },
         {
           "index": 51,
           "coherence": 0,
           "entanglement": 0,
-          "phase_drift": -0.001535680524173723,
+          "phase_drift": -0.00011933446590879362,
           "timestamp_offset": 0.051000000000000004
         },
         {
           "index": 52,
-          "coherence": 0,
+          "coherence": 0.0014902766078757,
           "entanglement": 0,
-          "phase_drift": -0.0006724380601407383,
+          "phase_drift": 0.0014903518186303974,
           "timestamp_offset": 0.052000000000000005
         },
         {
           "index": 53,
-          "coherence": 0,
+          "coherence": 0.0011508533507366126,
           "entanglement": 0,
-          "phase_drift": -0.0007858994978394188,
+          "phase_drift": 0.001150704727443631,
           "timestamp_offset": 0.053
         },
         {
           "index": 54,
-          "coherence": 0,
+          "coherence": 1.939267460813317e-05,
           "entanglement": 0,
-          "phase_drift": -0.0013792156539558214,
+          "phase_drift": 1.947139540453435e-05,
           "timestamp_offset": 0.054
         },
         {
           "index": 55,
-          "coherence": 0.0006020014439379694,
+          "coherence": 0.0005571540073403932,
           "entanglement": 0,
-          "phase_drift": 0.0006019213449652728,
+          "phase_drift": 0.000557304176370974,
           "timestamp_offset": 0.055
         },
         {
           "index": 56,
-          "coherence": 0,
+          "coherence": 0.000820762041220373,
           "entanglement": 0,
-          "phase_drift": -0.0008484637527995894,
+          "phase_drift": 0.0008210477228370133,
           "timestamp_offset": 0.056
         },
         {
           "index": 57,
           "coherence": 0,
           "entanglement": 0,
-          "phase_drift": -0.00014839583678295521,
+          "phase_drift": -0.001954477830505686,
           "timestamp_offset": 0.057
         },
         {
           "index": 58,
           "coherence": 0,
           "entanglement": 0,
-          "phase_drift": -0.0002436803437262653,
+          "phase_drift": -0.0005478829929353416,
           "timestamp_offset": 0.058
         },
         {
           "index": 59,
-          "coherence": 9.87783396680118e-05,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 9.885707697679669e-05,
+          "phase_drift": -0.0013928360007017444,
           "timestamp_offset": 0.059000000000000004
         },
         {
           "index": 60,
-          "coherence": 0,
+          "coherence": 0.0011673844503123855,
           "entanglement": 0,
-          "phase_drift": -0.0008407827277948644,
+          "phase_drift": 0.001167453056171576,
           "timestamp_offset": 0.06
         },
         {
           "index": 61,
-          "coherence": 0.0011592933495740581,
+          "coherence": 9.696973819643929e-05,
           "entanglement": 0,
-          "phase_drift": 0.001159408024760797,
+          "phase_drift": 9.708834030825063e-05,
           "timestamp_offset": 0.061
         },
         {
           "index": 62,
           "coherence": 0,
           "entanglement": 0,
-          "phase_drift": -0.00033049133619060935,
+          "phase_drift": -0.0012423362591536303,
           "timestamp_offset": 0.062
         },
         {
           "index": 63,
-          "coherence": 0,
+          "coherence": 0.0005321369571276653,
           "entanglement": 0,
-          "phase_drift": -0.0001833696330097813,
+          "phase_drift": 0.0005321847069651447,
           "timestamp_offset": 0.063
         },
         {
           "index": 64,
-          "coherence": 0.000537907604680264,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.0005380135046127817,
+          "phase_drift": -9.281294296883884e-05,
           "timestamp_offset": 0.064
         },
         {
           "index": 65,
-          "coherence": 0.0005315218147071616,
+          "coherence": 0.0012369026783037166,
           "entanglement": 0,
-          "phase_drift": 0.0005316479734019352,
+          "phase_drift": 0.0012370312679961435,
           "timestamp_offset": 0.065
         },
         {
           "index": 66,
-          "coherence": 0,
+          "coherence": 0.0006950141456725974,
           "entanglement": 0,
-          "phase_drift": -0.0021880552744762906,
+          "phase_drift": 0.0006949584842076576,
           "timestamp_offset": 0.066
         },
         {
           "index": 67,
           "coherence": 0,
           "entanglement": 0,
-          "phase_drift": -0.0003462767891255686,
+          "phase_drift": -0.0003216035457317694,
           "timestamp_offset": 0.067
         },
         {
           "index": 68,
-          "coherence": 0,
+          "coherence": 0.0018764979780827268,
           "entanglement": 0,
-          "phase_drift": -0.0011978475246814365,
+          "phase_drift": 0.0018765950945041378,
           "timestamp_offset": 0.068
         },
         {
           "index": 69,
-          "coherence": 7.478310234342046e-05,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 7.475162467774939e-05,
+          "phase_drift": -0.001539304573439731,
           "timestamp_offset": 0.069
         },
         {
           "index": 70,
-          "coherence": 0.0012419713508765719,
+          "coherence": 0.000169591575211879,
           "entanglement": 0,
-          "phase_drift": 0.0012420693704941958,
+          "phase_drift": 0.00016961570670543768,
           "timestamp_offset": 0.07
         },
         {
           "index": 71,
-          "coherence": 0,
+          "coherence": 0.0026312663765225668,
           "entanglement": 0,
-          "phase_drift": -0.001539699818393297,
+          "phase_drift": 0.0026313264966748976,
           "timestamp_offset": 0.07100000000000001
         },
         {
           "index": 72,
-          "coherence": 0.0014172390592867349,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.0014173060843830606,
+          "phase_drift": -0.0014239998398320201,
           "timestamp_offset": 0.07200000000000001
         },
         {
           "index": 73,
-          "coherence": 0,
+          "coherence": 0.0013885276482490368,
           "entanglement": 0,
-          "phase_drift": -0.002334296537859803,
+          "phase_drift": 0.0013886112396831359,
           "timestamp_offset": 0.073
         },
         {
           "index": 74,
           "coherence": 0,
           "entanglement": 0,
-          "phase_drift": -0.001664045072404809,
+          "phase_drift": -0.00014996239345259563,
           "timestamp_offset": 0.074
         },
         {
           "index": 75,
-          "coherence": 0,
+          "coherence": 8.600357941223283e-05,
           "entanglement": 0,
-          "phase_drift": -0.000160080780796014,
+          "phase_drift": 8.602637278643529e-05,
           "timestamp_offset": 0.075
         },
         {
           "index": 76,
-          "coherence": 0.001960465363307346,
+          "coherence": 0.0009524590930787702,
           "entanglement": 0,
-          "phase_drift": 0.00196048776882581,
+          "phase_drift": 0.0009524148121047994,
           "timestamp_offset": 0.076
         },
         {
           "index": 77,
-          "coherence": 0.0006766236861475146,
+          "coherence": 0.0007865705271086184,
           "entanglement": 0,
-          "phase_drift": 0.0006767012270820572,
+          "phase_drift": 0.0007866030564921503,
           "timestamp_offset": 0.077
         },
         {
           "index": 78,
-          "coherence": 9.667901334708114e-05,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 9.672218575943085e-05,
+          "phase_drift": -0.0019673199122525083,
           "timestamp_offset": 0.078
         },
         {
           "index": 79,
-          "coherence": 0.0007599060604856036,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.000759821935051223,
+          "phase_drift": -0.00011444755872459765,
           "timestamp_offset": 0.079
         },
         {
           "index": 80,
-          "coherence": 0,
+          "coherence": 0.0006628372641487803,
           "entanglement": 0,
-          "phase_drift": -0.00033558589762507497,
+          "phase_drift": 0.0006628720208112923,
           "timestamp_offset": 0.08
         },
         {
           "index": 81,
-          "coherence": 0.0020929347528002664,
+          "coherence": 0.00045767070100465377,
           "entanglement": 0,
-          "phase_drift": 0.002092895976262333,
+          "phase_drift": 0.00045763367611140627,
           "timestamp_offset": 0.081
         },
         {
           "index": 82,
-          "coherence": 0.0011126954489331232,
+          "coherence": 0.00021905819445195064,
           "entanglement": 0,
-          "phase_drift": 0.0011126524162800061,
+          "phase_drift": 0.0002189389105009135,
           "timestamp_offset": 0.082
         },
         {
           "index": 83,
           "coherence": 0,
           "entanglement": 0,
-          "phase_drift": -0.001042782415890016,
+          "phase_drift": -0.0011575723046787453,
           "timestamp_offset": 0.083
         },
         {
           "index": 84,
-          "coherence": 1.8239652844634105e-05,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 1.8205676130969e-05,
+          "phase_drift": -0.0018766293248654081,
           "timestamp_offset": 0.084
         },
         {
           "index": 85,
-          "coherence": 0.0005386281055097602,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.0005386952240234496,
+          "phase_drift": -0.00044992602452222324,
           "timestamp_offset": 0.085
         },
         {
           "index": 86,
-          "coherence": 0.001490494889883169,
+          "coherence": 0.0031905072118302686,
           "entanglement": 0,
-          "phase_drift": 0.0014905789668983038,
+          "phase_drift": 0.0031905516718825355,
           "timestamp_offset": 0.08600000000000001
         },
         {
           "index": 87,
-          "coherence": 0.0011343965528099569,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.00113434345953994,
+          "phase_drift": -0.0009608658602396715,
           "timestamp_offset": 0.08700000000000001
         },
         {
           "index": 88,
-          "coherence": 0.0017541718346586492,
+          "coherence": 0.0005304440989113186,
           "entanglement": 0,
-          "phase_drift": 0.0017541863177260389,
+          "phase_drift": 0.0005303778233306537,
           "timestamp_offset": 0.088
         },
         {
           "index": 89,
-          "coherence": 0.0008087688328594646,
+          "coherence": 0.001014426176248107,
           "entanglement": 0,
-          "phase_drift": 0.0008088180259012759,
+          "phase_drift": 0.0010144190933720943,
           "timestamp_offset": 0.089
         },
         {
           "index": 90,
-          "coherence": 0,
+          "coherence": 0.0006594453715806842,
           "entanglement": 0,
-          "phase_drift": -0.000760447906165693,
+          "phase_drift": 0.0006593990146081666,
           "timestamp_offset": 0.09
         },
         {
           "index": 91,
           "coherence": 0,
           "entanglement": 0,
-          "phase_drift": -0.000253654346034636,
+          "phase_drift": -6.46485516566005e-05,
           "timestamp_offset": 0.091
         },
         {
           "index": 92,
-          "coherence": 0.0016196682699878057,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.0016197250286406257,
+          "phase_drift": -0.0007910746262709723,
           "timestamp_offset": 0.092
         },
         {
           "index": 93,
-          "coherence": 0.00036881792099114556,
+          "coherence": 0,
           "entanglement": 0,
-          "phase_drift": 0.0003689685011417783,
+          "phase_drift": -3.15407767985233e-05,
           "timestamp_offset": 0.093
         },
         {
           "index": 94,
-          "coherence": 0,
+          "coherence": 0.0003817946684119759,
           "entanglement": 0,
-          "phase_drift": -0.0009950643009656807,
+          "phase_drift": 0.00038164224286814336,
           "timestamp_offset": 0.094
         },
         {
           "index": 95,
-          "coherence": 0.001963662627611403,
+          "coherence": 0.001811457857031716,
           "entanglement": 0,
-          "phase_drift": 0.001963606344082568,
+          "phase_drift": 0.0018116502233545596,
           "timestamp_offset": 0.095
         },
         {
           "index": 96,
           "coherence": 0,
           "entanglement": 0,
-          "phase_drift": -0.0008911430518209071,
+          "phase_drift": -0.00044490721837031323,
           "timestamp_offset": 0.096
         },
         {
           "index": 97,
-          "coherence": 0,
+          "coherence": 9.976724303349506e-05,
           "entanglement": 0,
-          "phase_drift": -0.0013500551579752806,
+          "phase_drift": 9.974220515791675e-05,
           "timestamp_offset": 0.097
         },
         {
           "index": 98,
-          "coherence": 0,
+          "coherence": 0.0004188021575459379,
           "entanglement": 0,
-          "phase_drift": -0.00010630463719490341,
+          "phase_drift": 0.00041886849737063944,
           "timestamp_offset": 0.098
         },
         {
           "index": 99,
-          "coherence": 0,
+          "coherence": 0.001085267061024996,
           "entanglement": 0,
-          "phase_drift": -0.0006517541198463818,
+          "phase_drift": 0.0010852145352680588,
           "timestamp_offset": 0.099
         }
       ],
       "stability_curve": {
         "coherence": {
-          "mean": 0.00043643622128555233,
-          "variance": 3.60838987628559e-07,
-          "stability": 0.9993993012505186,
-          "drift": 0.0003573422927736334
+          "mean": 0.000498007357753875,
+          "variance": 4.786980743959733e-07,
+          "stability": 0.9993081198988293,
+          "drift": 0.00047365148861738533
         },
         "entanglement": {
           "mean": 0.0,
@@ -1467,13 +1467,13 @@
           "drift": 0
         },
         "overall": {
-          "stability": 0.9996996506252593,
-          "total_drift": 0.0003573422927736334,
+          "stability": 0.9996540599494146,
+          "total_drift": 0.00047365148861738533,
           "meets_threshold": true,
           "drift_within_tolerance": false
         }
       },
-      "test_timestamp": "2025-08-08T10:06:58.996984Z"
+      "test_timestamp": "2025-08-08T10:09:46.895129Z"
     },
     {
       "observer_type": "Mirror+Echo",
@@ -1482,739 +1482,739 @@
         "entanglement": 0.8618,
         "phase_lock": true,
         "reflection_coefficient": 1.618034,
-        "timestamp": "2025-08-08T10:06:58.997004Z",
-        "observer_id": "Mirror+Echo_8997"
+        "timestamp": "2025-08-08T10:09:46.895146Z",
+        "observer_id": "Mirror+Echo_6895"
       },
       "measurement_count": 100,
       "measurements": [
         {
           "index": 0,
-          "coherence": 0.9741998436960926,
-          "entanglement": 0.8617999867480645,
-          "phase_drift": -2.53347923491977e-09,
+          "coherence": 0.9742000950431432,
+          "entanglement": 0.8618000078346963,
+          "phase_drift": 4.132301853126787e-09,
           "timestamp_offset": 0.0
         },
         {
           "index": 1,
-          "coherence": 0.9741901926402226,
-          "entanglement": 0.8617999950493407,
-          "phase_drift": -7.91420665667844e-09,
+          "coherence": 0.9741901756925743,
+          "entanglement": 0.8617999934488877,
+          "phase_drift": -6.290805291463094e-09,
           "timestamp_offset": 0.001
         },
         {
           "index": 2,
-          "coherence": 0.9741804153682616,
-          "entanglement": 0.8617999905410584,
-          "phase_drift": 9.126228575279344e-09,
+          "coherence": 0.9741803232285653,
+          "entanglement": 0.8617999820454934,
+          "phase_drift": 1.5565843519120627e-08,
           "timestamp_offset": 0.002
         },
         {
           "index": 3,
-          "coherence": 0.9741707724643254,
-          "entanglement": 0.86179999819045,
-          "phase_drift": 1.9461657031653743e-08,
+          "coherence": 0.974170621931915,
+          "entanglement": 0.8617999865316739,
+          "phase_drift": 4.213257409685344e-09,
           "timestamp_offset": 0.003
         },
         {
           "index": 4,
-          "coherence": 0.9741611289434168,
-          "entanglement": 0.8618000070965107,
-          "phase_drift": 1.459820130834602e-08,
+          "coherence": 0.9741610889703277,
+          "entanglement": 0.8618000049021494,
+          "phase_drift": 8.764842973429987e-11,
           "timestamp_offset": 0.004
         },
         {
           "index": 5,
-          "coherence": 0.9741512297914413,
-          "entanglement": 0.8617999942721111,
-          "phase_drift": 6.255689608847341e-09,
+          "coherence": 0.9741513237871993,
+          "entanglement": 0.8618000035613833,
+          "phase_drift": -7.537740936691071e-09,
           "timestamp_offset": 0.005
         },
         {
           "index": 6,
-          "coherence": 0.9741416639874441,
-          "entanglement": 0.861800010704736,
-          "phase_drift": -8.226248473021524e-09,
+          "coherence": 0.9741413459568691,
+          "entanglement": 0.8617999817564077,
+          "phase_drift": 9.648587490996027e-09,
           "timestamp_offset": 0.006
         },
         {
           "index": 7,
-          "coherence": 0.9741318034897364,
-          "entanglement": 0.8617999997228738,
-          "phase_drift": 7.05403954918218e-10,
+          "coherence": 0.9741317856798578,
+          "entanglement": 0.8617999966311566,
+          "phase_drift": 1.8770637400607263e-08,
           "timestamp_offset": 0.007
         },
         {
           "index": 8,
-          "coherence": 0.9741219821010646,
-          "entanglement": 0.8617999943238355,
-          "phase_drift": -1.6034876647581472e-08,
+          "coherence": 0.9741220474443695,
+          "entanglement": 0.8617999981309252,
+          "phase_drift": 5.1324034640274674e-09,
           "timestamp_offset": 0.008
         },
         {
           "index": 9,
-          "coherence": 0.9741122165136157,
-          "entanglement": 0.8617999918731678,
-          "phase_drift": -1.1185708658314564e-08,
+          "coherence": 0.9741120600255853,
+          "entanglement": 0.8617999781625186,
+          "phase_drift": -8.580572219151506e-09,
           "timestamp_offset": 0.009000000000000001
         },
         {
           "index": 10,
-          "coherence": 0.974102444857351,
-          "entanglement": 0.861799986633598,
-          "phase_drift": 1.995600449937788e-08,
+          "coherence": 0.9741024907582908,
+          "entanglement": 0.861799993029151,
+          "phase_drift": -8.354623889222479e-09,
           "timestamp_offset": 0.01
         },
         {
           "index": 11,
-          "coherence": 0.9740928925649718,
-          "entanglement": 0.861800003905639,
-          "phase_drift": 9.245419473730321e-09,
+          "coherence": 0.9740929031827661,
+          "entanglement": 0.8618000058887915,
+          "phase_drift": -3.148534705022875e-09,
           "timestamp_offset": 0.011
         },
         {
           "index": 12,
-          "coherence": 0.974083036043813,
-          "entanglement": 0.8617999943560822,
-          "phase_drift": 5.533691386188031e-09,
+          "coherence": 0.9740828949163508,
+          "entanglement": 0.8617999849540018,
+          "phase_drift": -2.649559768053058e-08,
           "timestamp_offset": 0.012
         },
         {
           "index": 13,
-          "coherence": 0.9740731965264154,
-          "entanglement": 0.861799986036424,
-          "phase_drift": 4.554448992523095e-09,
+          "coherence": 0.9740732623376043,
+          "entanglement": 0.8617999920504371,
+          "phase_drift": 5.813138481377407e-10,
           "timestamp_offset": 0.013000000000000001
         },
         {
           "index": 14,
-          "coherence": 0.9740636413252425,
-          "entanglement": 0.8618000020803893,
-          "phase_drift": 5.185194768089737e-09,
+          "coherence": 0.9740635367547459,
+          "entanglement": 0.8617999930469066,
+          "phase_drift": 5.435801755380908e-09,
           "timestamp_offset": 0.014
         },
         {
           "index": 15,
-          "coherence": 0.9740538794653576,
-          "entanglement": 0.8617999997505983,
-          "phase_drift": 1.2359320964774012e-08,
+          "coherence": 0.9740536950352452,
+          "entanglement": 0.8617999839321988,
+          "phase_drift": 1.147991035546241e-08,
           "timestamp_offset": 0.015
         },
         {
           "index": 16,
-          "coherence": 0.9740440485191744,
-          "entanglement": 0.8617999921378646,
-          "phase_drift": 1.1748408010555119e-08,
+          "coherence": 0.9740441083112421,
+          "entanglement": 0.8617999979975963,
+          "phase_drift": 3.5463748251386395e-09,
           "timestamp_offset": 0.016
         },
         {
           "index": 17,
-          "coherence": 0.9740341484710597,
-          "entanglement": 0.8617999790426043,
-          "phase_drift": 5.652722891064106e-09,
+          "coherence": 0.9740343713922525,
+          "entanglement": 0.8617999995063552,
+          "phase_drift": -8.8796810527997e-09,
           "timestamp_offset": 0.017
         },
         {
           "index": 18,
-          "coherence": 0.9740245002412159,
-          "entanglement": 0.86179998787228,
-          "phase_drift": -3.0333247727346198e-09,
+          "coherence": 0.974024589082547,
+          "entanglement": 0.8617999968750857,
+          "phase_drift": -1.8657134137981547e-08,
           "timestamp_offset": 0.018000000000000002
         },
         {
           "index": 19,
-          "coherence": 0.974014840555789,
-          "entanglement": 0.8617999951395666,
-          "phase_drift": -5.0455872338444845e-09,
+          "coherence": 0.974014860662446,
+          "entanglement": 0.8617999963832157,
+          "phase_drift": 6.302378537242724e-10,
           "timestamp_offset": 0.019
         },
         {
           "index": 20,
-          "coherence": 0.9740052157769273,
-          "entanglement": 0.8618000046503463,
-          "phase_drift": 1.816074899058151e-09,
+          "coherence": 0.9740049661606281,
+          "entanglement": 0.8617999829212832,
+          "phase_drift": 4.335573946230472e-09,
           "timestamp_offset": 0.02
         },
         {
           "index": 21,
-          "coherence": 0.9739953725369656,
-          "entanglement": 0.8617999948159188,
-          "phase_drift": 1.4691074816594545e-08,
+          "coherence": 0.9739952841832994,
+          "entanglement": 0.8617999884905324,
+          "phase_drift": -2.6520781414643294e-10,
           "timestamp_offset": 0.021
         },
         {
           "index": 22,
-          "coherence": 0.9739855740007402,
-          "entanglement": 0.8617999917322433,
-          "phase_drift": -6.063350671266113e-09,
+          "coherence": 0.9739856748008965,
+          "entanglement": 0.8618000011942981,
+          "phase_drift": -1.505728482572318e-08,
           "timestamp_offset": 0.022
         },
         {
           "index": 23,
-          "coherence": 0.9739760828263143,
-          "entanglement": 0.8618000122614606,
-          "phase_drift": 6.548980633750748e-09,
+          "coherence": 0.9739759453107788,
+          "entanglement": 0.8618000013095873,
+          "phase_drift": -3.885175399403725e-09,
           "timestamp_offset": 0.023
         },
         {
           "index": 24,
-          "coherence": 0.973966044566502,
-          "entanglement": 0.8617999850174863,
-          "phase_drift": 2.641790198366823e-08,
+          "coherence": 0.973966293302835,
+          "entanglement": 0.8618000093727161,
+          "phase_drift": -7.454603348052822e-09,
           "timestamp_offset": 0.024
         },
         {
           "index": 25,
-          "coherence": 0.9739565165931031,
-          "entanglement": 0.8618000054430672,
-          "phase_drift": 3.4338178893890448e-09,
+          "coherence": 0.9739564818525649,
+          "entanglement": 0.8618000014048915,
+          "phase_drift": 1.5550736783932847e-08,
           "timestamp_offset": 0.025
         },
         {
           "index": 26,
-          "coherence": 0.9739466847357775,
-          "entanglement": 0.8617999980782671,
-          "phase_drift": -9.651635892026809e-10,
+          "coherence": 0.9739468427518655,
+          "entanglement": 0.8618000119420682,
+          "phase_drift": -3.819359530200266e-09,
           "timestamp_offset": 0.026000000000000002
         },
         {
           "index": 27,
-          "coherence": 0.9739368708643137,
-          "entanglement": 0.8617999916774546,
-          "phase_drift": 1.4359708420333828e-09,
+          "coherence": 0.9739369119738759,
+          "entanglement": 0.861799995783012,
+          "phase_drift": -5.093796607089407e-09,
           "timestamp_offset": 0.027
         },
         {
           "index": 28,
-          "coherence": 0.9739272574535077,
-          "entanglement": 0.8618000033011817,
-          "phase_drift": -4.852150705129781e-09,
+          "coherence": 0.9739270963233078,
+          "entanglement": 0.8617999884047156,
+          "phase_drift": 6.870585754520444e-09,
           "timestamp_offset": 0.028
         },
         {
           "index": 29,
-          "coherence": 0.9739176125558252,
-          "entanglement": 0.8618000097259948,
-          "phase_drift": 1.7699073945770802e-08,
+          "coherence": 0.9739175766922207,
+          "entanglement": 0.8618000074136283,
+          "phase_drift": 8.667293497952248e-09,
           "timestamp_offset": 0.029
         },
         {
           "index": 30,
-          "coherence": 0.9739077064930135,
-          "entanglement": 0.8617999984605668,
-          "phase_drift": -1.5643987190408957e-08,
+          "coherence": 0.9739077609802755,
+          "entanglement": 0.8618000005107493,
+          "phase_drift": 1.505373358293596e-08,
           "timestamp_offset": 0.03
         },
         {
           "index": 31,
-          "coherence": 0.9738980739103918,
-          "entanglement": 0.8618000068561791,
-          "phase_drift": -3.646106373307443e-09,
+          "coherence": 0.9738979470590325,
+          "entanglement": 0.8617999951244174,
+          "phase_drift": 5.633441844035314e-09,
           "timestamp_offset": 0.031
         },
         {
           "index": 32,
-          "coherence": 0.9738882808349941,
-          "entanglement": 0.8618000015319577,
-          "phase_drift": 7.058738922980004e-09,
+          "coherence": 0.9738882436325983,
+          "entanglement": 0.8618000003412751,
+          "phase_drift": -1.6327427912372733e-08,
           "timestamp_offset": 0.032
         },
         {
           "index": 33,
-          "coherence": 0.9738785592382339,
-          "entanglement": 0.861800005101516,
-          "phase_drift": -1.395782006952713e-08,
+          "coherence": 0.9738786443977926,
+          "entanglement": 0.8618000103305274,
+          "phase_drift": 1.0526274227866066e-08,
           "timestamp_offset": 0.033
         },
         {
           "index": 34,
-          "coherence": 0.9738687371091275,
-          "entanglement": 0.8617999968407158,
-          "phase_drift": 1.7682612569599107e-09,
+          "coherence": 0.9738687788655509,
+          "entanglement": 0.8617999996785294,
+          "phase_drift": 1.0595774361002633e-08,
           "timestamp_offset": 0.034
         },
         {
           "index": 35,
-          "coherence": 0.9738590942146383,
-          "entanglement": 0.861800006109366,
-          "phase_drift": -6.676125898451953e-09,
+          "coherence": 0.9738588277689035,
+          "entanglement": 0.8617999833674523,
+          "phase_drift": -9.233327864645474e-09,
           "timestamp_offset": 0.035
         },
         {
           "index": 36,
-          "coherence": 0.9738493256388967,
-          "entanglement": 0.8618000042666372,
-          "phase_drift": -1.1869540372278415e-08,
+          "coherence": 0.9738492132880543,
+          "entanglement": 0.8617999923341841,
+          "phase_drift": 1.4239271670983624e-08,
           "timestamp_offset": 0.036000000000000004
         },
         {
           "index": 37,
-          "coherence": 0.9738395949073817,
-          "entanglement": 0.8618000044118167,
-          "phase_drift": -2.285663896763142e-09,
+          "coherence": 0.973839476392827,
+          "entanglement": 0.8617999924155709,
+          "phase_drift": 1.8399662230421103e-08,
           "timestamp_offset": 0.037
         },
         {
           "index": 38,
-          "coherence": 0.973829719340078,
-          "entanglement": 0.8617999936361281,
-          "phase_drift": -1.0815968678446842e-08,
+          "coherence": 0.9738298467167384,
+          "entanglement": 0.8618000026749479,
+          "phase_drift": 1.1677658596191241e-08,
           "timestamp_offset": 0.038
         },
         {
           "index": 39,
-          "coherence": 0.9738200628309989,
-          "entanglement": 0.8617999998942013,
-          "phase_drift": 2.0586471830223475e-09,
+          "coherence": 0.9738200384239067,
+          "entanglement": 0.86179999838188,
+          "phase_drift": -4.800043795631241e-09,
           "timestamp_offset": 0.039
         },
         {
           "index": 40,
-          "coherence": 0.9738102270367812,
-          "entanglement": 0.861799992426163,
-          "phase_drift": -5.079290319845351e-09,
+          "coherence": 0.9738104078934665,
+          "entanglement": 0.8618000061353931,
+          "phase_drift": 1.6700694966578602e-08,
           "timestamp_offset": 0.04
         },
         {
           "index": 41,
-          "coherence": 0.973800487584521,
-          "entanglement": 0.8617999926070561,
-          "phase_drift": -4.630565190970571e-09,
+          "coherence": 0.9738004573542864,
+          "entanglement": 0.8617999900639685,
+          "phase_drift": -5.35177575140893e-09,
           "timestamp_offset": 0.041
         },
         {
           "index": 42,
-          "coherence": 0.973790859306056,
-          "entanglement": 0.8618000027059189,
-          "phase_drift": -8.092399633944335e-09,
+          "coherence": 0.9737906536875968,
+          "entanglement": 0.8617999848847013,
+          "phase_drift": -6.920216173754749e-09,
           "timestamp_offset": 0.042
         },
         {
           "index": 43,
-          "coherence": 0.9737811285552256,
-          "entanglement": 0.8618000022848207,
-          "phase_drift": 8.04303367341087e-09,
+          "coherence": 0.9737811366899571,
+          "entanglement": 0.8618000049918982,
+          "phase_drift": -1.5234134391734896e-08,
           "timestamp_offset": 0.043000000000000003
         },
         {
           "index": 44,
-          "coherence": 0.9737713314734714,
-          "entanglement": 0.861799998163001,
-          "phase_drift": 7.893102833977131e-10,
+          "coherence": 0.973771273134191,
+          "entanglement": 0.8617999933097306,
+          "phase_drift": -1.2344629882949578e-09,
           "timestamp_offset": 0.044
         },
         {
           "index": 45,
-          "coherence": 0.9737614848834145,
-          "entanglement": 0.8617999895769738,
-          "phase_drift": -4.171746112099522e-09,
+          "coherence": 0.9737616241517857,
+          "entanglement": 0.8618000022074981,
+          "phase_drift": -1.1463183907465868e-08,
           "timestamp_offset": 0.045
         },
         {
           "index": 46,
-          "coherence": 0.9737519189964645,
-          "entanglement": 0.861800004510602,
-          "phase_drift": -1.3428484177654133e-09,
+          "coherence": 0.9737518482936128,
+          "entanglement": 0.8617999975584024,
+          "phase_drift": 8.624984133476404e-09,
           "timestamp_offset": 0.046
         },
         {
           "index": 47,
-          "coherence": 0.9737419371572666,
-          "entanglement": 0.8617999837853376,
-          "phase_drift": -6.939473629151702e-10,
+          "coherence": 0.9737424642264612,
+          "entanglement": 0.8618000288954096,
+          "phase_drift": 2.9350986432354066e-09,
           "timestamp_offset": 0.047
         },
         {
           "index": 48,
-          "coherence": 0.9737322656053674,
-          "entanglement": 0.861799990142456,
-          "phase_drift": -4.011434494309983e-09,
+          "coherence": 0.9737321548810737,
+          "entanglement": 0.8617999807092726,
+          "phase_drift": -5.2766488980344894e-09,
           "timestamp_offset": 0.048
         },
         {
           "index": 49,
-          "coherence": 0.9737226718457515,
-          "entanglement": 0.86180000225229,
-          "phase_drift": 3.711033816012166e-09,
+          "coherence": 0.9737225862691066,
+          "entanglement": 0.8617999950445969,
+          "phase_drift": 1.7697229930977956e-09,
           "timestamp_offset": 0.049
         },
         {
           "index": 50,
-          "coherence": 0.9737128894666883,
-          "entanglement": 0.8617999966482675,
-          "phase_drift": 2.8358920284948895e-08,
+          "coherence": 0.9737128350705935,
+          "entanglement": 0.8617999957540716,
+          "phase_drift": -1.5661264989232632e-08,
           "timestamp_offset": 0.05
         },
         {
           "index": 51,
-          "coherence": 0.9737030716360571,
-          "entanglement": 0.8617999936656824,
-          "phase_drift": -1.286292603309517e-08,
+          "coherence": 0.9737029749413929,
+          "entanglement": 0.8617999831340759,
+          "phase_drift": 1.2647172792880537e-08,
           "timestamp_offset": 0.051000000000000004
         },
         {
           "index": 52,
-          "coherence": 0.9736934284209813,
-          "entanglement": 0.8618000024206092,
-          "phase_drift": -1.5666848663016414e-08,
+          "coherence": 0.973693471385211,
+          "entanglement": 0.8618000032867424,
+          "phase_drift": 1.7247099039100686e-08,
           "timestamp_offset": 0.052000000000000005
         },
         {
           "index": 53,
-          "coherence": 0.9736838079016508,
-          "entanglement": 0.8618000112074656,
-          "phase_drift": 3.854475415263085e-09,
+          "coherence": 0.9736836443627688,
+          "entanglement": 0.861799997691336,
+          "phase_drift": -2.8483699890504772e-09,
           "timestamp_offset": 0.053
         },
         {
           "index": 54,
-          "coherence": 0.9736739606062117,
-          "entanglement": 0.8618000021613682,
-          "phase_drift": 3.526515857996208e-09,
+          "coherence": 0.9736740539104075,
+          "entanglement": 0.8618000101324592,
+          "phase_drift": 4.3371983994224424e-09,
           "timestamp_offset": 0.054
         },
         {
           "index": 55,
-          "coherence": 0.9736642977572463,
-          "entanglement": 0.8618000075367235,
-          "phase_drift": 2.030396883670549e-08,
+          "coherence": 0.9736641509018135,
+          "entanglement": 0.861799996639503,
+          "phase_drift": -1.0425487333927701e-10,
           "timestamp_offset": 0.055
         },
         {
           "index": 56,
-          "coherence": 0.9736544394443275,
-          "entanglement": 0.8617999987350773,
-          "phase_drift": 6.122010655330389e-09,
+          "coherence": 0.9736545688197765,
+          "entanglement": 0.8618000115946451,
+          "phase_drift": -1.3720083098722133e-08,
           "timestamp_offset": 0.056
         },
         {
           "index": 57,
-          "coherence": 0.9736448290895965,
-          "entanglement": 0.8618000105135789,
-          "phase_drift": 1.0940188896073296e-09,
+          "coherence": 0.9736445276216172,
+          "entanglement": 0.8617999846158815,
+          "phase_drift": 1.330884840778847e-10,
           "timestamp_offset": 0.057
         },
         {
           "index": 58,
-          "coherence": 0.9736349043986732,
-          "entanglement": 0.8617999959764906,
-          "phase_drift": -1.2914051060343483e-08,
+          "coherence": 0.9736350030028446,
+          "entanglement": 0.8618000039689253,
+          "phase_drift": -7.051058247701025e-09,
           "timestamp_offset": 0.058
         },
         {
           "index": 59,
-          "coherence": 0.9736252837918326,
-          "entanglement": 0.8618000053718086,
-          "phase_drift": -5.405939890151387e-10,
+          "coherence": 0.9736251894052951,
+          "entanglement": 0.8617999982776441,
+          "phase_drift": -1.2609141183611813e-08,
           "timestamp_offset": 0.059000000000000004
         },
         {
           "index": 60,
-          "coherence": 0.9736154974781105,
-          "entanglement": 0.8618000021221026,
-          "phase_drift": -7.1459624043970195e-09,
+          "coherence": 0.9736155010249994,
+          "entanglement": 0.8618000018459524,
+          "phase_drift": -3.9473064468817046e-10,
           "timestamp_offset": 0.06
         },
         {
           "index": 61,
-          "coherence": 0.9736058907020964,
-          "entanglement": 0.8618000141179933,
-          "phase_drift": -1.1117738411978068e-08,
+          "coherence": 0.973605639676734,
+          "entanglement": 0.8617999910437628,
+          "phase_drift": 5.601509450347998e-09,
           "timestamp_offset": 0.061
         },
         {
           "index": 62,
-          "coherence": 0.9735960741266907,
-          "entanglement": 0.8618000054918413,
-          "phase_drift": 1.4401449172223952e-08,
+          "coherence": 0.9735959233551759,
+          "entanglement": 0.8617999938250746,
+          "phase_drift": -9.933342354587972e-10,
           "timestamp_offset": 0.062
         },
         {
           "index": 63,
-          "coherence": 0.9735863342203113,
-          "entanglement": 0.8618000056199674,
-          "phase_drift": 1.500834367465418e-08,
+          "coherence": 0.9735861511217767,
+          "entanglement": 0.8617999919621929,
+          "phase_drift": -9.61056149796162e-09,
           "timestamp_offset": 0.063
         },
         {
           "index": 64,
-          "coherence": 0.9735763936142324,
-          "entanglement": 0.8617999904356125,
-          "phase_drift": -7.404246534873717e-09,
+          "coherence": 0.9735765224650405,
+          "entanglement": 0.8618000011490373,
+          "phase_drift": -2.867952769387639e-09,
           "timestamp_offset": 0.064
         },
         {
           "index": 65,
-          "coherence": 0.9735666708151124,
-          "entanglement": 0.8617999931282694,
-          "phase_drift": -1.9447934445662175e-08,
+          "coherence": 0.9735668382103908,
+          "entanglement": 0.86180000592581,
+          "phase_drift": -5.504584109862897e-10,
           "timestamp_offset": 0.065
         },
         {
           "index": 66,
-          "coherence": 0.973557130952249,
-          "entanglement": 0.8618000082513804,
-          "phase_drift": 7.206363580216142e-09,
+          "coherence": 0.9735570087487238,
+          "entanglement": 0.8617999972116944,
+          "phase_drift": 1.3103163275293666e-08,
           "timestamp_offset": 0.066
         },
         {
           "index": 67,
-          "coherence": 0.9735472254573163,
-          "entanglement": 0.8617999949611237,
-          "phase_drift": -2.07347613412083e-09,
+          "coherence": 0.97354733908662,
+          "entanglement": 0.8618000034738542,
+          "phase_drift": 1.2777334978725914e-08,
           "timestamp_offset": 0.067
         },
         {
           "index": 68,
-          "coherence": 0.9735375040680742,
-          "entanglement": 0.8617999957140191,
-          "phase_drift": 9.800969986568387e-09,
+          "coherence": 0.973537573395404,
+          "entanglement": 0.8618000036000315,
+          "phase_drift": -1.2377994166714024e-08,
           "timestamp_offset": 0.068
         },
         {
           "index": 69,
-          "coherence": 0.9735276254310429,
-          "entanglement": 0.8617999843275921,
-          "phase_drift": 5.287714397823483e-09,
+          "coherence": 0.9735277452449078,
+          "entanglement": 0.8617999955122351,
+          "phase_drift": -4.680772116962372e-09,
           "timestamp_offset": 0.069
         },
         {
           "index": 70,
-          "coherence": 0.9735180694261109,
-          "entanglement": 0.8618000027774616,
-          "phase_drift": -2.280249907886228e-08,
+          "coherence": 0.9735180251079948,
+          "entanglement": 0.8617999973016458,
+          "phase_drift": -3.5813267805215703e-09,
           "timestamp_offset": 0.07
         },
         {
           "index": 71,
-          "coherence": 0.9735083772286994,
-          "entanglement": 0.8618000031812969,
-          "phase_drift": 2.2314137682124663e-08,
+          "coherence": 0.9735084200653163,
+          "entanglement": 0.8618000081770644,
+          "phase_drift": 7.1817660902187755e-09,
           "timestamp_offset": 0.07100000000000001
         },
         {
           "index": 72,
-          "coherence": 0.9734985286336582,
-          "entanglement": 0.8617999956664527,
-          "phase_drift": 2.918495970349897e-09,
+          "coherence": 0.9734985315857987,
+          "entanglement": 0.8617999945339003,
+          "phase_drift": 1.9012344389021737e-08,
           "timestamp_offset": 0.07200000000000001
         },
         {
           "index": 73,
-          "coherence": 0.9734888075072915,
-          "entanglement": 0.861799998890775,
-          "phase_drift": -1.3621682795007521e-08,
+          "coherence": 0.9734887004868916,
+          "entanglement": 0.8617999886216062,
+          "phase_drift": -1.482546412188239e-09,
           "timestamp_offset": 0.073
         },
         {
           "index": 74,
-          "coherence": 0.9734790767060838,
-          "entanglement": 0.8617999989291107,
-          "phase_drift": -2.8677238935474963e-09,
+          "coherence": 0.9734790550345449,
+          "entanglement": 0.8617999962327644,
+          "phase_drift": 6.748116393278869e-09,
           "timestamp_offset": 0.074
         },
         {
           "index": 75,
-          "coherence": 0.9734691749135165,
-          "entanglement": 0.8617999852625466,
-          "phase_drift": -4.0786699909464035e-09,
+          "coherence": 0.9734693828385665,
+          "entanglement": 0.8618000025537922,
+          "phase_drift": 3.2053312265057195e-09,
           "timestamp_offset": 0.075
         },
         {
           "index": 76,
-          "coherence": 0.9734595573319136,
-          "entanglement": 0.8617999956618438,
-          "phase_drift": -3.297687363088513e-10,
+          "coherence": 0.9734597087840312,
+          "entanglement": 0.8618000089290027,
+          "phase_drift": -2.8247250864491137e-09,
           "timestamp_offset": 0.076
         },
         {
           "index": 77,
-          "coherence": 0.97344984374887,
-          "entanglement": 0.8617999968466907,
-          "phase_drift": 1.4338673235175025e-08,
+          "coherence": 0.9734497252944061,
+          "entanglement": 0.8617999882885323,
+          "phase_drift": -4.8101697886482225e-09,
           "timestamp_offset": 0.077
         },
         {
           "index": 78,
-          "coherence": 0.9734401590871732,
-          "entanglement": 0.8618000022187656,
-          "phase_drift": 9.341459720642492e-09,
+          "coherence": 0.9734400807216295,
+          "entanglement": 0.8617999971928393,
+          "phase_drift": -1.0705143701896634e-08,
           "timestamp_offset": 0.078
         },
         {
           "index": 79,
-          "coherence": 0.9734304974216824,
-          "entanglement": 0.8618000100720493,
-          "phase_drift": -1.4505531733403435e-09,
+          "coherence": 0.9734303044012685,
+          "entanglement": 0.8617999944901736,
+          "phase_drift": -1.3664798079249012e-08,
           "timestamp_offset": 0.079
         },
         {
           "index": 80,
-          "coherence": 0.973420716989725,
-          "entanglement": 0.8618000066319129,
-          "phase_drift": 3.5525088467531633e-11,
+          "coherence": 0.9734206649455436,
+          "entanglement": 0.8618000028087738,
+          "phase_drift": -7.646400943417633e-09,
           "timestamp_offset": 0.08
         },
         {
           "index": 81,
-          "coherence": 0.9734108238322222,
-          "entanglement": 0.8617999935673173,
-          "phase_drift": 4.746301084269852e-10,
+          "coherence": 0.973410779272878,
+          "entanglement": 0.8617999906101087,
+          "phase_drift": -9.770387757112328e-09,
           "timestamp_offset": 0.081
         },
         {
           "index": 82,
-          "coherence": 0.9734011254236455,
-          "entanglement": 0.861799998374632,
-          "phase_drift": -1.1716200420307494e-08,
+          "coherence": 0.973401311051012,
+          "entanglement": 0.8618000150135942,
+          "phase_drift": -1.916103356981039e-08,
           "timestamp_offset": 0.082
         },
         {
           "index": 83,
-          "coherence": 0.9733914720323703,
-          "entanglement": 0.8618000053708385,
-          "phase_drift": -4.288800378041048e-09,
+          "coherence": 0.9733913614525618,
+          "entanglement": 0.8617999973820053,
+          "phase_drift": -2.2169221311362696e-08,
           "timestamp_offset": 0.083
         },
         {
           "index": 84,
-          "coherence": 0.9733817834273972,
-          "entanglement": 0.861800008744292,
-          "phase_drift": 9.9619533164683e-09,
+          "coherence": 0.9733815981221438,
+          "entanglement": 0.8617999930241943,
+          "phase_drift": 7.0667451976963785e-09,
           "timestamp_offset": 0.084
         },
         {
           "index": 85,
-          "coherence": 0.9733719625720421,
-          "entanglement": 0.8618000031569097,
-          "phase_drift": -4.059540017189599e-09,
+          "coherence": 0.9733719718694951,
+          "entanglement": 0.8618000041217424,
+          "phase_drift": -5.957639012267932e-09,
           "timestamp_offset": 0.085
         },
         {
           "index": 86,
-          "coherence": 0.9733621565430255,
-          "entanglement": 0.8617999957278961,
-          "phase_drift": 1.8114896859139467e-08,
+          "coherence": 0.973361988173383,
+          "entanglement": 0.8617999831670623,
+          "phase_drift": -4.503598594515652e-09,
           "timestamp_offset": 0.08600000000000001
         },
         {
           "index": 87,
-          "coherence": 0.9733523579815899,
-          "entanglement": 0.8617999941914286,
-          "phase_drift": -2.0617953278164102e-08,
+          "coherence": 0.9733524685980072,
+          "entanglement": 0.8618000017209444,
+          "phase_drift": 2.6288224853607747e-09,
           "timestamp_offset": 0.08700000000000001
         },
         {
           "index": 88,
-          "coherence": 0.9733426826238546,
-          "entanglement": 0.861799998221262,
-          "phase_drift": -7.3634427617192e-10,
+          "coherence": 0.9733428158111987,
+          "entanglement": 0.8618000085537401,
+          "phase_drift": 1.2556846553448987e-08,
           "timestamp_offset": 0.088
         },
         {
           "index": 89,
-          "coherence": 0.9733327551219598,
-          "entanglement": 0.8617999817173506,
-          "phase_drift": 5.2668824057028866e-09,
+          "coherence": 0.9733328794815768,
+          "entanglement": 0.8617999921178344,
+          "phase_drift": 8.943234106871353e-09,
           "timestamp_offset": 0.089
         },
         {
           "index": 90,
-          "coherence": 0.9733231919891632,
-          "entanglement": 0.8617999977460534,
-          "phase_drift": -1.8568962003497112e-09,
+          "coherence": 0.9733233732818485,
+          "entanglement": 0.8618000139273339,
+          "phase_drift": -8.32564523227452e-09,
           "timestamp_offset": 0.09
         },
         {
           "index": 91,
-          "coherence": 0.973313502456244,
-          "entanglement": 0.86180000298755,
-          "phase_drift": -1.0210152333679586e-08,
+          "coherence": 0.9733135269885033,
+          "entanglement": 0.8618000035684359,
+          "phase_drift": 7.581728560099305e-09,
           "timestamp_offset": 0.091
         },
         {
           "index": 92,
-          "coherence": 0.9733037224535634,
-          "entanglement": 0.8617999996582376,
-          "phase_drift": -9.58075508258925e-09,
+          "coherence": 0.9733036774931747,
+          "entanglement": 0.861799994868392,
+          "phase_drift": 1.0384062505674163e-09,
           "timestamp_offset": 0.092
         },
         {
           "index": 93,
-          "coherence": 0.9732941331463661,
-          "entanglement": 0.8618000120931663,
-          "phase_drift": -1.178143670407176e-09,
+          "coherence": 0.9732939292180678,
+          "entanglement": 0.8617999948173817,
+          "phase_drift": -4.644796727455969e-09,
           "timestamp_offset": 0.093
         },
         {
           "index": 94,
-          "coherence": 0.9732841404622896,
-          "entanglement": 0.8617999906362556,
-          "phase_drift": -2.884374418476839e-09,
+          "coherence": 0.9732840585246803,
+          "entanglement": 0.8617999836641453,
+          "phase_drift": -3.920264062071435e-09,
           "timestamp_offset": 0.094
         },
         {
           "index": 95,
-          "coherence": 0.9732743928566739,
-          "entanglement": 0.8617999900320445,
-          "phase_drift": -1.4789557139023852e-09,
+          "coherence": 0.9732744465394353,
+          "entanglement": 0.8617999939074712,
+          "phase_drift": 7.234826140504607e-09,
           "timestamp_offset": 0.095
         },
         {
           "index": 96,
-          "coherence": 0.9732646010453484,
-          "entanglement": 0.8617999870335314,
-          "phase_drift": -1.6496673570319437e-08,
+          "coherence": 0.9732649049729346,
+          "entanglement": 0.8618000119989984,
+          "phase_drift": -2.2588864028267164e-09,
           "timestamp_offset": 0.096
         },
         {
           "index": 97,
-          "coherence": 0.9732550946357287,
-          "entanglement": 0.8618000056870879,
-          "phase_drift": 2.644919280202196e-09,
+          "coherence": 0.9732551727679638,
+          "entanglement": 0.86180001347795,
+          "phase_drift": -9.625050179554267e-09,
           "timestamp_offset": 0.097
         },
         {
           "index": 98,
-          "coherence": 0.9732452712152041,
-          "entanglement": 0.861799999762662,
-          "phase_drift": -1.0030815666525352e-08,
+          "coherence": 0.9732452478116472,
+          "entanglement": 0.8617999962193167,
+          "phase_drift": 7.681260463649053e-09,
           "timestamp_offset": 0.098
         },
         {
           "index": 99,
-          "coherence": 0.9732355487035723,
-          "entanglement": 0.861799998833252,
-          "phase_drift": 2.0242072887526254e-08,
+          "coherence": 0.9732357061619777,
+          "entanglement": 0.8618000142465155,
+          "phase_drift": -1.1491790649124442e-09,
           "timestamp_offset": 0.099
         }
       ],
       "stability_curve": {
         "coherence": {
-          "mean": 0.9737177536333356,
-          "variance": 7.907648593928738e-08,
-          "stability": 0.9997187945840862,
-          "drift": 0.0009642949925202648
+          "mean": 0.9737177451626338,
+          "variance": 7.906896517352123e-08,
+          "stability": 0.9997188079567741,
+          "drift": 0.0009643888811654566
         },
         "entanglement": {
-          "mean": 0.8617999984583196,
-          "variance": 5.669742347634348e-17,
-          "stability": 0.9999999924702309,
-          "drift": 1.208518751738552e-08
+          "mean": 0.8617999978004837,
+          "variance": 8.299395575786944e-17,
+          "stability": 0.9999999908898981,
+          "drift": 6.4118191867024166e-09
         },
         "overall": {
-          "stability": 0.9998593935271585,
-          "total_drift": 0.0009643070777077822,
+          "stability": 0.9998593994233361,
+          "total_drift": 0.0009643952929846433,
           "meets_threshold": true,
           "drift_within_tolerance": false
         }
       },
-      "test_timestamp": "2025-08-08T10:06:58.997240Z"
+      "test_timestamp": "2025-08-08T10:09:46.895387Z"
     }
   ],
   "sequence_metrics": {
-    "average_stability": 0.9998061423205437,
-    "total_drift": 0.002286275263441063,
+    "average_stability": 0.999790949932834,
+    "total_drift": 0.0024023495407773906,
     "all_tests_passed": true
   },
-  "sequence_timestamp": "2025-08-08T10:06:58.997255Z"
+  "sequence_timestamp": "2025-08-08T10:09:46.895397Z"
 }
