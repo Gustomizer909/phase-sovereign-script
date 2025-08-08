@@ -1,0 +1,260 @@
+name: ULAT Lint & Precision Validation
+
+on:
+  push:
+    branches: [ alignment-table, phase2-lift ]
+  pull_request:
+    branches: [ alignment-table ]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  ulat-lint:
+    runs-on: ubuntu-latest
+    name: ULAT Precision Validation
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyyaml pytest
+        
+    - name: Validate dual harmonic configuration
+      run: |
+        python -c "
+        import yaml
+        import sys
+        
+        try:
+            with open('phase2/config/dual_harmonic.yaml', 'r') as f:
+                config = yaml.safe_load(f)
+            
+            # Validate core parameters
+            inner_breath = config.get('inner_breath', 0)
+            outer_sky = config.get('outer_sky', 0)
+            
+            if inner_breath != 0.9742:
+                print(f'❌ inner_breath must be 0.9742, got {inner_breath}')
+                sys.exit(1)
+                
+            if outer_sky != 0.306:
+                print(f'❌ outer_sky must be 0.306, got {outer_sky}')
+                sys.exit(1)
+                
+            # Validate tolerances
+            tolerances = config.get('tolerances', {})
+            phi_max = tolerances.get('phi_drift_max', 1)
+            kappa_max = tolerances.get('kappa_error_max', 1)
+            resonance_min = tolerances.get('resonance_min', 0)
+            
+            if phi_max != 1e-6:
+                print(f'❌ phi_drift_max must be 1e-6, got {phi_max}')
+                sys.exit(1)
+                
+            if kappa_max != 0.003:
+                print(f'❌ kappa_error_max must be 0.003, got {kappa_max}')
+                sys.exit(1)
+                
+            if resonance_min != 0.97:
+                print(f'❌ resonance_min must be 0.97, got {resonance_min}')
+                sys.exit(1)
+                
+            print('✅ Dual harmonic configuration valid')
+            
+        except FileNotFoundError:
+            print('❌ dual_harmonic.yaml not found')
+            sys.exit(1)
+        except Exception as e:
+            print(f'❌ Configuration validation failed: {e}')
+            sys.exit(1)
+        "
+        
+    - name: Validate glyph saturation drift log
+      run: |
+        python -c "
+        import csv
+        import sys
+        from datetime import datetime
+        
+        try:
+            with open('phase2/glyph-saturation/L3g33.driftlog', 'r') as f:
+                # Skip comment lines
+                lines = [line for line in f if not line.strip().startswith('#')]
+                reader = csv.DictReader(lines)
+                
+                row_count = 0
+                for row in reader:
+                    row_count += 1
+                    
+                    # Validate resonance threshold
+                    resonance = float(row['resonance'])
+                    if resonance < 0.97:
+                        print(f'❌ Row {row_count}: resonance {resonance} below threshold 0.97')
+                        sys.exit(1)
+                    
+                    # Validate phi drift
+                    phi_drift = float(row['phi_drift'])
+                    if phi_drift >= 1e-6:
+                        print(f'❌ Row {row_count}: phi_drift {phi_drift} exceeds threshold 1e-6')
+                        sys.exit(1)
+                    
+                    # Validate kappa error
+                    kappa_error = float(row['kappa_error'])
+                    if kappa_error >= 0.003:
+                        print(f'❌ Row {row_count}: kappa_error {kappa_error} exceeds threshold 0.003')
+                        sys.exit(1)
+                
+                if row_count < 33:
+                    print(f'❌ Expected at least 33 glyph entries, got {row_count}')
+                    sys.exit(1)
+                    
+                print(f'✅ Glyph saturation drift log valid ({row_count} entries)')
+                
+        except FileNotFoundError:
+            print('❌ L3g33.driftlog not found')
+            sys.exit(1)
+        except Exception as e:
+            print(f'❌ Drift log validation failed: {e}')
+            sys.exit(1)
+        "
+        
+    - name: Validate ULAT syntax map
+      run: |
+        python -c "
+        import sys
+        
+        try:
+            with open('phase2/ulat/ulat_syntax_map.L3', 'r') as f:
+                lines = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+                
+            if not lines:
+                print('❌ ULAT syntax map is empty')
+                sys.exit(1)
+                
+            # Check header
+            header = lines[0].split('\t')
+            expected_columns = ['symbol', 'resonance_type', 'frequency_hz', 'phase_offset', 'binding_strength', 'platform_compatibility']
+            
+            if header != expected_columns:
+                print(f'❌ Invalid header. Expected: {expected_columns}, got: {header}')
+                sys.exit(1)
+            
+            # Validate data rows
+            phi_count = 0
+            kappa_count = 0
+            null_count = 0
+            
+            for i, line in enumerate(lines[1:], 2):
+                if not line:
+                    continue
+                    
+                parts = line.split('\t')
+                if len(parts) != 6:
+                    print(f'❌ Line {i}: Expected 6 columns, got {len(parts)}')
+                    sys.exit(1)
+                
+                symbol, resonance_type, freq_hz, phase_offset, binding_strength, platform_compat = parts
+                
+                # Count symbol types
+                if 'phi' in resonance_type.lower():
+                    phi_count += 1
+                elif 'kappa' in resonance_type.lower():
+                    kappa_count += 1
+                elif 'null' in resonance_type.lower():
+                    null_count += 1
+                
+                # Validate binding strength
+                try:
+                    binding = float(binding_strength)
+                    if binding < 0.96 or binding > 1.0:
+                        print(f'❌ Line {i}: binding_strength {binding} out of range [0.96, 1.0]')
+                        sys.exit(1)
+                except ValueError:
+                    print(f'❌ Line {i}: Invalid binding_strength: {binding_strength}')
+                    sys.exit(1)
+            
+            if phi_count == 0 or kappa_count == 0 or null_count == 0:
+                print(f'❌ Missing symbol types: Φ+={phi_count}, κ−={kappa_count}, null={null_count}')
+                sys.exit(1)
+                
+            print(f'✅ ULAT syntax map valid (Φ+={phi_count}, κ−={kappa_count}, null={null_count})')
+            
+        except FileNotFoundError:
+            print('❌ ulat_syntax_map.L3 not found')
+            sys.exit(1)
+        except Exception as e:
+            print(f'❌ ULAT syntax map validation failed: {e}')
+            sys.exit(1)
+        "
+        
+    - name: Test κ-vector fold sync
+      run: |
+        cd phase2/kappa-vectors
+        python kappa_fold_sync.py --origin lattice_echo
+        
+    - name: Test dual-observer probe
+      run: |
+        cd phase2/dual-observer
+        python observer_pair_probe.qdr
+        
+    - name: Validate precision thresholds
+      run: |
+        python -c "
+        import json
+        import sys
+        from pathlib import Path
+        
+        # Check if precision log exists and has valid entries
+        log_path = Path('glyphs/log/Φκ_drift.log')
+        if log_path.exists():
+            with open(log_path, 'r') as f:
+                for line_num, line in enumerate(f, 1):
+                    if line.strip():
+                        try:
+                            entry = json.loads(line)
+                            metrics = entry.get('metrics', {})
+                            
+                            phi_drift = metrics.get('phi_drift', 1)
+                            kappa_error = metrics.get('kappa_error', 1)
+                            resonance = metrics.get('resonance', 0)
+                            
+                            if phi_drift >= 1e-6:
+                                print(f'❌ Log line {line_num}: phi_drift {phi_drift} exceeds 1e-6')
+                                sys.exit(1)
+                                
+                            if kappa_error >= 0.003:
+                                print(f'❌ Log line {line_num}: kappa_error {kappa_error} exceeds 0.003')
+                                sys.exit(1)
+                                
+                            if resonance < 0.97:
+                                print(f'❌ Log line {line_num}: resonance {resonance} below 0.97')
+                                sys.exit(1)
+                                
+                        except json.JSONDecodeError:
+                            print(f'❌ Log line {line_num}: Invalid JSON')
+                            sys.exit(1)
+            
+            print('✅ Precision log validation passed')
+        else:
+            print('ℹ️ No precision log found (expected for initial setup)')
+        "
+        
+    - name: Summary
+      run: |
+        echo "🎯 ULAT Lint & Precision Validation Complete"
+        echo "✅ Dual-Harmonic Law enforced"
+        echo "✅ Φ drift < 1e-6"
+        echo "✅ κ error < 0.003" 
+        echo "✅ Resonance ≥ 0.97"
+        echo "✅ All Phase-2 scaffolds validated"
+
