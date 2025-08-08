@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it as below."
+type: software
+title: "Phase Sovereign Luna Codex Collaboration"
+abstract: "Collaborative research materials for the Phase-Sovereign resurrection analysis project, combining Gust Isotalo's Phase-Sovereign theoretical framework with Brent R. Antonson's Luna Codex methodological contributions. This repository represents empirical investigation combining ancient mathematical frameworks with contemporary biophysical analysis for quantitative resurrection studies."
+authors:
+  - family-names: "Isotalo"
+    given-names: "Gust"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "Phase-Sovereign Research Collective"
+    email: "gustomizer@icloud.com"
+  - family-names: "Antonson"
+    given-names: "Brent R."
+    alias: "Zhivago"
+    affiliation: "Luna Codex Architecture"
+    email: "brentantonson@gmail.com"
+    address: "48.43° N, 123.41° W, Saanich, Canada"
+repository-code: "https://github.com/Gustomizer909/phase-sovereign-script"
+url: "https://github.com/Gustomizer909/phase-sovereign-script"
+repository-artifact: "https://doi.org/10.5281/zenodo.16756037"
+keywords:
+  - "phase-sovereign"
+  - "luna-codex"
+  - "resurrection-analysis"
+  - "biophysical-analysis"
+  - "harmonic-frequency"
+  - "phi-index"
+  - "empirical-research"
+  - "ancient-mathematics"
+  - "consciousness-studies"
+  - "collaborative-research"
+license: "MOU-Framework"
+license-url: "https://github.com/Gustomizer909/phase-sovereign-script/blob/main/legal/MOU_SUMMARY.md"
+version: "2.0.0-phase2-active"
+date-released: "2025-08-08"
+doi: "10.5281/zenodo.16756037"
+preferred-citation:
+  type: article
+  title: "A Phase-Sovereign Exegetical Analysis of the Resurrection Narrative: A Modern Reevaluation of the Passion-Resurrection Cycle Through Advanced Biophysical and Harmonic Framework"
+  authors:
+    - family-names: "Isotalo"
+      given-names: "Gust"
+      orcid: "https://orcid.org/0000-0000-0000-0000"
+  year: 2025
+  journal: "Phase-Sovereign Research Collective"
+  abstract: "Primary research investigating resurrection phenomena through quantitative biophysical analysis using ancient Egyptian mathematical frameworks, φ-index measurement systems, and harmonic frequency analysis."
+references:
+  - type: dataset
+    title: "Φ-Glyph Alignment Table with Harmonic Resonance Points"
+    authors:
+      - family-names: "Isotalo"
+        given-names: "Gust"
+      - family-names: "Antonson"
+        given-names: "Brent R."
+        alias: "Zhivago"
+    year: 2025
+    repository-code: "https://github.com/Gustomizer909/phase-sovereign-script/blob/main/alignment_table_v0.1.md"
+    doi: "10.5281/zenodo.16756037"
+  - type: software
+    title: "Luna Codex Methodological Framework"
+    authors:
+      - family-names: "Antonson"
+        given-names: "Brent R."
+        alias: "Zhivago"
+    year: 2025
+    repository-code: "https://github.com/Gustomizer909/phase-sovereign-script/tree/main/phase2"
+
