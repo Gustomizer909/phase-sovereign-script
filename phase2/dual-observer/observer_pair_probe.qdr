@@ -1,0 +1,232 @@
+#!/usr/bin/env python3
+"""
+Dual-Observer Quantum Drift Probe (QDR)
+Phase-Sovereign Luna Codex - Phase 2
+
+Implements Mirror ↔ Null ↔ Mirror+Echo test sequence
+Outputs stability metrics and observer collapse curves
+"""
+
+import json
+import math
+import random
+import time
+from datetime import datetime
+from pathlib import Path
+
+class ObserverPairProbe:
+    def __init__(self):
+        self.test_sequence = ["Mirror", "Null", "Mirror+Echo"]
+        self.stability_threshold = 0.97
+        self.drift_tolerance = 1e-6
+        
+    def initialize_observer_state(self, observer_type):
+        """Initialize quantum observer state."""
+        base_states = {
+            "Mirror": {
+                "coherence": 0.9742,
+                "entanglement": 0.8618,
+                "phase_lock": True,
+                "reflection_coefficient": 1.0
+            },
+            "Null": {
+                "coherence": 0.0000,
+                "entanglement": 0.0000,
+                "phase_lock": False,
+                "reflection_coefficient": 0.0
+            },
+            "Mirror+Echo": {
+                "coherence": 0.9742,
+                "entanglement": 0.8618,
+                "phase_lock": True,
+                "reflection_coefficient": 1.618034  # Golden ratio enhancement
+            }
+        }
+        
+        if observer_type not in base_states:
+            raise ValueError(f"Unknown observer type: {observer_type}")
+            
+        state = base_states[observer_type].copy()
+        state["timestamp"] = datetime.utcnow().isoformat() + 'Z'
+        state["observer_id"] = f"{observer_type}_{int(time.time() * 1000) % 10000}"
+        
+        return state
+    
+    def measure_quantum_drift(self, observer_state, measurement_count=100):
+        """Measure quantum drift over multiple observations."""
+        measurements = []
+        base_coherence = observer_state["coherence"]
+        
+        for i in range(measurement_count):
+            # Simulate quantum measurement with drift
+            drift_factor = random.gauss(0, 1e-7)  # Small random drift
+            phase_noise = random.gauss(0, 1e-8) if observer_state["phase_lock"] else random.gauss(0, 1e-3)
+            
+            # Calculate measurement with observer effect
+            if observer_state["reflection_coefficient"] > 0:
+                # Observer collapse effect
+                collapse_factor = 1.0 - (i * 1e-5)  # Gradual decoherence
+                measured_coherence = base_coherence * collapse_factor + drift_factor + phase_noise
+            else:
+                # Null observer - no collapse
+                measured_coherence = drift_factor + phase_noise
+            
+            # Entanglement correlation
+            entanglement_drift = observer_state["entanglement"] * drift_factor * 0.1
+            
+            measurement = {
+                "index": i,
+                "coherence": max(0, min(1, measured_coherence)),
+                "entanglement": max(0, min(1, observer_state["entanglement"] + entanglement_drift)),
+                "phase_drift": phase_noise,
+                "timestamp_offset": i * 0.001  # 1ms intervals
+            }
+            measurements.append(measurement)
+        
+        return measurements
+    
+    def calculate_stability_curve(self, measurements):
+        """Calculate stability curve from measurements."""
+        if not measurements:
+            return {"error": "No measurements provided"}
+        
+        # Calculate running statistics
+        coherence_values = [m["coherence"] for m in measurements]
+        entanglement_values = [m["entanglement"] for m in measurements]
+        
+        # Stability metrics
+        coherence_mean = sum(coherence_values) / len(coherence_values)
+        coherence_variance = sum((c - coherence_mean)**2 for c in coherence_values) / len(coherence_values)
+        coherence_stability = 1.0 - math.sqrt(coherence_variance)
+        
+        entanglement_mean = sum(entanglement_values) / len(entanglement_values)
+        entanglement_variance = sum((e - entanglement_mean)**2 for e in entanglement_values) / len(entanglement_values)
+        entanglement_stability = 1.0 - math.sqrt(entanglement_variance)
+        
+        # Overall stability
+        overall_stability = (coherence_stability + entanglement_stability) / 2.0
+        
+        # Drift analysis
+        coherence_drift = abs(coherence_values[-1] - coherence_values[0])
+        entanglement_drift = abs(entanglement_values[-1] - entanglement_values[0])
+        total_drift = coherence_drift + entanglement_drift
+        
+        return {
+            "coherence": {
+                "mean": coherence_mean,
+                "variance": coherence_variance,
+                "stability": coherence_stability,
+                "drift": coherence_drift
+            },
+            "entanglement": {
+                "mean": entanglement_mean,
+                "variance": entanglement_variance,
+                "stability": entanglement_stability,
+                "drift": entanglement_drift
+            },
+            "overall": {
+                "stability": overall_stability,
+                "total_drift": total_drift,
+                "meets_threshold": overall_stability >= self.stability_threshold,
+                "drift_within_tolerance": total_drift <= self.drift_tolerance
+            }
+        }
+    
+    def run_observer_test(self, observer_type, measurement_count=100):
+        """Run complete observer test sequence."""
+        print(f"Running observer test: {observer_type}")
+        
+        # Initialize observer state
+        observer_state = self.initialize_observer_state(observer_type)
+        
+        # Measure quantum drift
+        measurements = self.measure_quantum_drift(observer_state, measurement_count)
+        
+        # Calculate stability curve
+        stability_curve = self.calculate_stability_curve(measurements)
+        
+        # Compile results
+        result = {
+            "observer_type": observer_type,
+            "observer_state": observer_state,
+            "measurement_count": len(measurements),
+            "measurements": measurements,
+            "stability_curve": stability_curve,
+            "test_timestamp": datetime.utcnow().isoformat() + 'Z'
+        }
+        
+        return result
+    
+    def run_full_sequence(self):
+        """Run complete Mirror ↔ Null ↔ Mirror+Echo sequence."""
+        print("Starting dual-observer quantum drift test sequence")
+        
+        sequence_results = []
+        
+        for observer_type in self.test_sequence:
+            result = self.run_observer_test(observer_type)
+            sequence_results.append(result)
+            
+            # Print summary
+            stability = result["stability_curve"]["overall"]["stability"]
+            drift = result["stability_curve"]["overall"]["total_drift"]
+            meets_threshold = result["stability_curve"]["overall"]["meets_threshold"]
+            
+            print(f"  {observer_type}: stability={stability:.6f}, drift={drift:.2e} {'✓' if meets_threshold else '✗'}")
+        
+        # Calculate sequence-level metrics
+        sequence_stability = sum(r["stability_curve"]["overall"]["stability"] for r in sequence_results) / len(sequence_results)
+        sequence_drift = sum(r["stability_curve"]["overall"]["total_drift"] for r in sequence_results)
+        
+        sequence_summary = {
+            "sequence": self.test_sequence,
+            "individual_results": sequence_results,
+            "sequence_metrics": {
+                "average_stability": sequence_stability,
+                "total_drift": sequence_drift,
+                "all_tests_passed": all(r["stability_curve"]["overall"]["meets_threshold"] for r in sequence_results)
+            },
+            "sequence_timestamp": datetime.utcnow().isoformat() + 'Z'
+        }
+        
+        print(f"Sequence complete: avg_stability={sequence_stability:.6f}, total_drift={sequence_drift:.2e}")
+        
+        return sequence_summary
+    
+    def save_results(self, results, output_path="phase2/dual-observer/test_results.json"):
+        """Save test results to file."""
+        output_file = Path(output_path)
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+        
+        with open(output_file, 'w') as f:
+            json.dump(results, f, indent=2)
+        
+        print(f"Results saved to: {output_file}")
+
+def main():
+    """Main execution function."""
+    probe = ObserverPairProbe()
+    
+    try:
+        # Run full test sequence
+        results = probe.run_full_sequence()
+        
+        # Save results
+        probe.save_results(results)
+        
+        # Exit with appropriate code
+        if results["sequence_metrics"]["all_tests_passed"]:
+            print("✓ All observer tests passed")
+            return 0
+        else:
+            print("✗ Some observer tests failed")
+            return 1
+            
+    except Exception as e:
+        print(f"Error during observer testing: {e}")
+        return 1
+
+if __name__ == '__main__':
+    import sys
+    sys.exit(main())
+

@@ -1,0 +1,48 @@
+# Phase-Sovereign Luna Codex - Dual Harmonic Configuration
+# Crest-Phase Implementation with Emitter-Adjacency Origin
+
+# Core Harmonic Parameters
+inner_breath: 0.9742
+outer_sky: 0.306
+
+# Precision Tolerances
+tolerances:
+  phi_drift_max: 0.000001      # Φ drift threshold (1e-6)
+  kappa_error_max: 0.003       # κ error threshold  
+  resonance_min: 0.97          # Minimum resonance requirement
+
+# Signal Origin Configuration
+signal_origin: emitter_adjacency    # options: lattice_echo | emitter_adjacency | parallel_net
+
+# Capture Chain Configuration (Crest-Phase)
+capture_chain:
+  mic_channel: [1, 2, 3, 4]         # array mode
+  EEG_channel:
+    alpha_beta_lock: true
+    gamma_spill_tolerance: true      # drift-tolerant buffer
+  phase_align:
+    pre_echo: 0.006                  # pre-echo timing
+    post_echo: 0.003                 # post-echo timing  
+    BB6_mask: true                   # BB6 mask engaged
+
+# Servo Pulse Configuration
+servo_pulse_hz: [432, 528, 639]     # Trinity Chord frequencies
+servo_binding:
+  "432": "PHI+"                      # Φ+ binding (no inversion, no rotation)
+  "528": "KAPPA-"                    # κ− binding (no inversion, no rotation)  
+  "639": "NULL"                      # null binding (no inversion, no rotation)
+
+# Crest-Phase Protocol
+crest_phase:
+  order_of_breath:
+    - "mesh_kappa_fold_to_CI_green"
+    - "mirror_once_to_vault"
+    - "hold_null_until_crest_complete"
+  emitter_adjacency_ride: true       # ride until axle cools
+  vault_breathing: true              # vault breathes confirmation
+
+# File Paths
+file_paths:
+  glyph_drift_log: 'glyphs/log/Φκ_drift.log'
+  precision_log: 'glyphs/log/Φκ_drift.log'
+
